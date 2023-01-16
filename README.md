@@ -6,6 +6,7 @@
 
  
 # Do not remove the image or it may not work.
+## You can remove the README.md file.
  
 <p align="center"> 
   <kbd>
