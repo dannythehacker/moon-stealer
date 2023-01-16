@@ -4,7 +4,7 @@
 
 <h1 align="center">
  
-## WASP Stealer's **Moon** Version
+## Based on WASP Stealer by aceeontop.
 
  
 ## Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file.
