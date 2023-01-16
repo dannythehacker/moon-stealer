@@ -2,7 +2,8 @@
  🌕 Moon Stealer (Discord Token Grabber) 🌕
 <h1 align="center">
 Wasp Stealer's **Custom** Version
-## Do not remove the image or it may not work.
+
+Do not remove the image or it may not work.
 <p align="center"> 
   <kbd>
 <img src="https://media.discordapp.net/attachments/1062433241723846746/1064631569026920568/Moon.png?width=774&height=580" width="328"></img>
