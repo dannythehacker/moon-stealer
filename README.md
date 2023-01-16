@@ -18,17 +18,15 @@
 ### | Setup
 
 1. Put ur webhook at ``hook = "X"``
-2. Run main.py, you will see your info in the webhook you entered.
+2. Run main.py, you will see your info in the webhook you entered. You need to have python installed! Use our tool **Get-Python.bat** to install python!
 3. Obfuscate your code here: https://pyobfuscate.com/
-4. Compile it into a exe with pyinstaller https://pyinstaller.org/
+4. Compile it into a exe using our tool **Py-2-Exe.bat** which is located in the **tools** folder!
 
 <a id="features"></a>
 
 ---
 
 ### | Features
-
-#### Stealer
 
 > FUD (Fully Undetectable)
 
