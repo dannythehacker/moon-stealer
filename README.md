@@ -1,8 +1,10 @@
 <h1 align="center">
  🌕 Moon Stealer (Discord Token Grabber) 🌕
 <h1 align="center">
+ 
 Wasp Stealer's **Custom** Version
 
+ 
 Do not remove the image or it may not work.
 <p align="center"> 
   <kbd>
