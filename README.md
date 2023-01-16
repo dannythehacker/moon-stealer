@@ -28,6 +28,7 @@
 ### | Features
 
 > FUD (Fully Undetectable)
+> Kills victim discord client
 
 > Password / Cookies
 - Steal Saved Passwords
