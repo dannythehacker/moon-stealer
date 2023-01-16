@@ -1,7 +1,8 @@
 <h1 align="center">
  🌕 Moon Stealer (Discord Token Grabber) 🌕
 <h1 align="center">
-Wasp Stealer's **Custom** Version (DO NOT REMOVE ANY FILES SUCH AS INJECT.PY OR MAIN.PY, THE IMAGE IS REQUIRED OR THE APP MAY CRASH.)
+Wasp Stealer's **Custom** Version
+## Do not remove the image or it may not work.
 <p align="center"> 
   <kbd>
 <img src="https://media.discordapp.net/attachments/1062433241723846746/1064631569026920568/Moon.png?width=774&height=580" width="328"></img>
