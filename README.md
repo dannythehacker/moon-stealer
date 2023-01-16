@@ -1,6 +1,6 @@
 <h1 align="center">
 
-🌑 Moon Stealer (Discord Token Grabber) 🌑
+🌑 Moon Stealer (Python Grabber) 🌑
 
 <h1 align="center">
  
