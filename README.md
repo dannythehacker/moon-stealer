@@ -16,7 +16,6 @@ Do not remove the image or it may not work.
 
 - [📁 Setting up](#setup)
 - [⚔️ Features](#features)
-- [📸 Screenshots](#screenshot)
 - [⚠️ Note](#note)
 
 ### 〢 Setting Up
