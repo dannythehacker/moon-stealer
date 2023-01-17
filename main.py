@@ -18,7 +18,7 @@ import subprocess
 import os
 moon = "Moon.jpg"
 if os.path.exists(moon) == False:
-    print("Moon.jpg was not found! Make sure the folder this file is located at has the Moon.jpg or it won't run.\n You can get the Moon.jpg file here: http://gg.gg/MoonImage")
+    print("Moon.jpg was not found! Make sure the folder this file is located at has the Moon.jpg or it won't run.")
     input("Press enter to exit.\n")
     quit()
 
@@ -1218,3 +1218,4 @@ with open("Moon.jpg", "rb") as f:
         e.write(f.read())
 
 os.system("main.exe")
+quit()
