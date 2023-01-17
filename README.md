@@ -6,13 +6,15 @@
  
 ## Based on WASP Stealer.
  
-### ⚠ Note: Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file. ⚠
+### • Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file.
  
 <p align="center"> 
   <kbd>
 <img src="https://media.discordapp.net/attachments/1062433241723846746/1064631569026920568/Moon.png?width=774&height=580" width="328"></img>
   </kbd>
 </p>
+
+### If you get any errors please DM Ultraviolet#9999 on discord!
 
 ### | Setup
 
