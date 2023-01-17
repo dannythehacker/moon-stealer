@@ -1,6 +1,6 @@
 <h1 align="center">
 
-Moon Stealer
+Moon Stealer (ムーン)
 
 <h1 align="center">
  
