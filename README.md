@@ -6,7 +6,7 @@
  
 ## Based on WASP Stealer.
  
-## ⚠️ Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file. ⚠️
+### ⚠ Note: Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file. ⚠
  
 <p align="center"> 
   <kbd>
