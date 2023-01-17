@@ -4,9 +4,9 @@
 
 <h1 align="center">
  
-## Based on WASP Stealer. _ 
+## Based on WASP Stealer. __
  
-### Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file. _
+### Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file.
  
 <p align="center"> 
   <kbd>
