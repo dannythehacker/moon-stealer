@@ -7,7 +7,7 @@ Moon Stealer
 ## Based on WASP Stealer.
  
 ### Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file.
-#### Converting to a .exe breaks the code.
+#### Converting the .py file to a .exe breaks the code.
  
 <p align="center"> 
   <kbd>
