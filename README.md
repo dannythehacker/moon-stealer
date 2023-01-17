@@ -1,6 +1,6 @@
 <h1 align="center">
 
-🌑 Moon Stealer 🌑
+Moon Stealer
 
 <h1 align="center">
  
