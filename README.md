@@ -5,7 +5,7 @@ Moon Stealer
 <h1 align="center">
  
 ## Based on WASP Stealer.
- 
+#### Star this project so we can get famous!
 ### Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file.
 #### Converting the .py file to a .exe breaks the code.
  
