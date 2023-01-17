@@ -15,7 +15,7 @@ Moon Stealer
   </kbd>
 </p>
 
-### If you get any errors please DM Ultraviolet#9999 on discord!
+### If you get any errors, please do not hesitate to contact Ultraviolet#9999 on discord!
 
 ### < Setup >
 
