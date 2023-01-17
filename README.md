@@ -68,6 +68,6 @@
 
 ### < Important >
 
-I am not responsible for any damages this software may cause. This program was made for educational purposes only.
+I am not responsible for any damage this software may cause; This program was made for educational purposes only.
 
 Credits: WASP Stealer
