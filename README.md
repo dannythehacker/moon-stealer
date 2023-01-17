@@ -6,7 +6,7 @@ Moon Stealer (ムーン)
  
 ### Based on WASP Stealer.
 #### Star this project so we can get on top of all other grabbers!
-#### Converting the .PY file to a .EXE breaks the script.
+#### Converting the .PY file to a .EXE breaks the stealer.
  
 <p align="center"> 
   <kbd>
