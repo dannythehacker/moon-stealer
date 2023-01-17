@@ -11,7 +11,7 @@ Moon Stealer
  
 <p align="center"> 
   <kbd>
-<img src="https://media.discordapp.net/attachments/1062433241723846746/1064631569026920568/Moon.png?width=774&height=580" width="328"></img>
+<img src="https://media.discordapp.net/attachments/1064637607373459607/1064932404759904437/My_project-1_1.png?width=989&height=495" width="989"></img>
   </kbd>
 </p>
 
