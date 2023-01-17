@@ -29,29 +29,29 @@
 
 ### >> Features
 
-> FUD (Fully Undetectable)
-> KILL DC (Kills Victim's Discord Client)
+- FUD (Fully Undetectable)
+- KILL DC (Kills Victim's Discord Client)
 
-> Password / Cookies
-- Steal Saved Passwords
-- Steal Brower Cookies
+- Browser Data
+    - Steal Saved Passwords
+    - Steal Cookies
 
-> Wallet Stealer
-- Steal Metamask wallets
-- Steal Exodus Wallet
-- Steal Atomic Wallet
+- Wallet Stealer
+    - Steal Metamask wallets
+    - Steal Exodus Wallet
+    - Steal Atomic Wallet
 
-> Discord
-- Steal Discord Tokens from browsers
-- Steal Discord Token from discord, discordcanary, discordPTBa
+- Discord
+    - Steal Discord Tokens from browsers
+    - Steal Discord Token from discord, discordcanary, discordPTBa
 
-> Gaming
-- Steal Steam Launcher accounts
-- Steal Nation Glory Launcher accounts
+- Gaming
+    - Steal Steam Launcher accounts
+    - Steal Nation Glory Launcher accounts
 
-> File Stealer
-- Search User PC for Passwords, 2fa codes, tokens, wallets...
-- Browsers: Opera, Chrome, Brave, Yandex, Edge
+- File Stealer
+    - Search User PC for Passwords, 2fa codes, tokens, wallets...
+    - Browsers: Opera, Chrome, Brave, Yandex, Edge
 
 ### >> Important
 
