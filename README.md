@@ -16,7 +16,7 @@
 
 ### If you get any errors please DM Ultraviolet#9999 on discord!
 
-### ! Setup
+### < Setup >
 
 1: Put your webhook at ``hook = "X"``
 
@@ -32,7 +32,7 @@
 
 ---
 
-### >> Features
+### < Features >
 
 - Browser Stealer
     - Steal Saved Passwords
@@ -66,7 +66,7 @@
 - Extras
     - KILL DC (Kills Victim's Discord Client)
 
-### ! Important
+### < Important >
 
 I am not responsible for any damages this software may cause. This program was made for educational purposes only.
 
