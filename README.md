@@ -71,8 +71,9 @@ Moon Stealer
 - Extras
     - KILL DC (Kills Victim's Discord Client)
 
-### Important
+## Important
 
+Program may crash some times, but it still sends to your webhook. Open task manager and exit the program.
 I am not responsible for any damage this software may cause; This program was made for educational purposes only.
 
 Credits: WASP Stealer
