@@ -18,11 +18,11 @@ import subprocess
 import os
 moon = "Moon.jpg"
 if os.path.exists(moon) == False:
-    print("There's no Moon.jpg?! Make sure the folder this file is located at has the Moon.jpg or it won't run.")
+    print("Moon.jpg was not found! Make sure the folder this file is located at has the Moon.jpg or it won't run.\n You can get the Moon.jpg file here: http://gg.gg/MoonImage")
     input("Press enter to exit.\n")
     quit()
 
-print("Please wait, this will take matter of seconds.")
+print("Please wait, this will take a matter of seconds. Do not exit this program!")
     
 # Replace the X with your webhook.
 
