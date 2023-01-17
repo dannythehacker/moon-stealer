@@ -6,7 +6,6 @@ Moon Stealer (ムーン)
  
 ### Based on WASP Stealer.
 #### Star this project so we can get on top of all other grabbers!
-### Do not remove Moon.jpg or it will give you an error, even if your going to send it to someone keep the Moon.jpg file.
 #### Converting the .PY file to a .EXE breaks the script.
  
 <p align="center"> 
