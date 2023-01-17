@@ -1,6 +1,6 @@
 <h1 align="center">
 
-🌑 Moon Stealer (Python Grabber) 🌑
+🌑 Moon Stealer 🌑
 
 <h1 align="center">
  
