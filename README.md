@@ -1,6 +1,8 @@
 <h1 align="center">
 
 🌑 Moon Stealer 🌑
+ 
+FUD (Fully Undetectable)
 
 <h1 align="center">
  
@@ -29,9 +31,6 @@
 
 ### >> Features
 
-- FUD (Fully Undetectable)
-- KILL DC (Kills Victim's Discord Client)
-
 - Browser Data
     - Steal Saved Passwords
     - Steal Cookies
@@ -52,6 +51,9 @@
 - File Stealer
     - Search User PC for Passwords, 2fa codes, tokens, wallets...
     - Browsers: Opera, Chrome, Brave, Yandex, Edge
+
+- Extras
+    - KILL DC (Kills Victim's Discord Client)
 
 ### >> Important
 
