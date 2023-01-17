@@ -22,6 +22,8 @@ if os.path.exists(moon) == False:
     input("Press enter to exit.\n")
     quit()
 
+print("Please wait, this will take matter of seconds.")
+    
 # Replace the X with your webhook.
 
 hook = "X"
