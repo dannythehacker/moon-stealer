@@ -19,7 +19,7 @@ import os
 moon = "Moon.jpg"
 if os.path.exists(moon) == False:
     print("There's no Moon.jpg?! Make sure the folder this file is located at has the Moon.jpg or it won't run.")
-    input("Press enter to exit. ")
+    input("Press enter to exit.\n")
     quit()
 
 # Replace the X with your webhook.
