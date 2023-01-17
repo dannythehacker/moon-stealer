@@ -34,7 +34,7 @@
 
 ---
 
-### < Features >
+### Features
 
 - Browser Stealer
     - Steal Saved Passwords
@@ -68,7 +68,7 @@
 - Extras
     - KILL DC (Kills Victim's Discord Client)
 
-### < Important >
+### Important
 
 I am not responsible for any damage this software may cause; This program was made for educational purposes only.
 
