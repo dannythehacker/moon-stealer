@@ -22,7 +22,7 @@ Moon Stealer (ムーン)
 
 2. Extract zip
 
-3. Run `Get-Python.bat` if you don't have python installed
+3. Run `install_python.bat` if you don't have python installed
 
 4. Open `main.py` with any text editor such as notepad.
 
