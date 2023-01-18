@@ -14,7 +14,7 @@ Moon Stealer (ムーン)
   </kbd>
 </p>
 
-### [Need help setting up? Join our Discord server!]()
+### Discord: Yuvi#0930
 
 ### Setup
 
