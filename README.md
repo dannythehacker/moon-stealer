@@ -14,8 +14,7 @@ Moon Stealer (ムーン)
   </kbd>
 </p>
 
-### If you get any errors, please do not hesitate to contact Ultraviolet#9999 on discord!
-### [Need help setting up? Join our Discord server!](https://discord.gg/JCYhMjQsNJ)
+### [Need help setting up? Join our Discord server!]()
 
 ### Setup
 
