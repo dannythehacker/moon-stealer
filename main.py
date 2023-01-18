@@ -14,6 +14,7 @@ from zipfile import ZipFile
 import random
 import re
 import subprocess
+import colorama
 
 moon = "Moon.jpg"
 if os.path.exists(moon) == False:
