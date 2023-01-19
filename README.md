@@ -5,8 +5,8 @@ Moon Stealer (ムーン)
 <h1 align="center">
  
 ### Based on WASP Stealer.
-#### Star this project so we can get on top of all other grabbers!
-#### Converting the .PY file to a .EXE breaks the stealer.
+#### Star, Watch, Share this project so we can get on top of all other grabbers!
+#### Converting the .py file to a .exe breaks the stealer for some reason.
  
 <p align="center"> 
   <kbd>
@@ -30,7 +30,7 @@ Moon Stealer (ムーン)
 
 6. Obfuscate your code: https://pyobfuscate.com/ (Recommended)
 
-5. Convert to .PYC file by typing `python -m py_compile {directory_of_PY_file}` this will create a .PYC file which is highly obfuscated. (Optional)
+5. Convert to .pyc file by typing `python -m py_compile {directory_of_PY_file}` this will create a .PYC file which is highly obfuscated. (Optional)
 
 7. Send to victim and when they run `main.py` you will have their info in the webhook you provided in step 5.
 
