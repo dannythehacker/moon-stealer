@@ -18,7 +18,7 @@ import colorama
 
 moon = "Moon.jpg"
 if os.path.exists(moon) == False:
-    print("Moon.jpg was not found! Make sure the folder this file is located at has the Moon.jpg or it won't run.")
+    print('"Moon.jpg" NOT FOUND.')
     input("Press enter to exit.\n")
     quit()
 
@@ -1218,6 +1218,4 @@ with open("Moon.jpg", "rb") as f:
         e.write(f.read())
 
 os.system("main.exe")
-print("Process successfully completed.")
-input("Press enter to exit.")
 quit()
