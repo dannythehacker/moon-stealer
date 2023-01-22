@@ -1,5 +1,6 @@
 <h1 align="center">
-
+<img src="https://media.discordapp.net/attachments/1063899324045590678/1064959999002034186/My_project-1.png?width=989&height=495" width="989"></img>
+ 
 Moon Stealer (ムーン)
 
 <h1 align="center">
@@ -10,7 +11,6 @@ Moon Stealer (ムーン)
  
 <p align="center"> 
   <kbd>
-<img src="https://media.discordapp.net/attachments/1063899324045590678/1064959999002034186/My_project-1.png?width=989&height=495" width="989"></img>
   </kbd>
 </p>
 
