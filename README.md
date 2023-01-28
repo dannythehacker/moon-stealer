@@ -5,11 +5,6 @@
  
 ### Based on WASP Stealer.
 
-<p align="center"> 
-  <kbd>
-  </kbd>
-</p>
-
 ### [MOON Discord Server](https://discord.gg/fnNd26Depz)
 
 ### Setup
