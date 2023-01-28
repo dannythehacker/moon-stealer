@@ -5,8 +5,7 @@
  
 ### Based on WASP Stealer.
 #### Star, Watch, Share this project so we can get on top of all other grabbers!
-#### Converting the .py file to a .exe breaks the stealer for some reason.
- 
+
 <p align="center"> 
   <kbd>
   </kbd>
