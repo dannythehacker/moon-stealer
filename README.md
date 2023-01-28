@@ -4,14 +4,13 @@
 <h1 align="center">
  
 ### Based on WASP Stealer.
-#### Star, Watch, Share this project so we can get on top of all other grabbers!
 
 <p align="center"> 
   <kbd>
   </kbd>
 </p>
 
-### [MOON Official Discord Server](https://discord.gg/fnNd26Depz)
+### [MOON Discord Server](https://discord.gg/fnNd26Depz)
 
 ### Setup
 
