@@ -70,3 +70,8 @@
 I am not responsible for any damage this software may cause; This program was made for educational purposes only.
 
 Credits: WASP Stealer
+
+<h1 align="center">
+<img src="https://media.discordapp.net/attachments/1069188941867143168/1069387851743105166/My_project-1_7.png?width=1065&height=533" width="989"></img>
+
+<h1 align="center">
