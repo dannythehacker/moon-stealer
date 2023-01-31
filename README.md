@@ -8,7 +8,7 @@
 ### Requirements:
 - **Few braincells**
 - **Windows 10 / 11**
-- **Python:** [v3.10](https://github.com/Yuvi5001/moon-stealer/blob/main/install_python.bat)
+- **Python:** [v3.10](https://www.python.org/downloads/release/python-3100/)
  
 ### Setup
 
