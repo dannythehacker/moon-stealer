@@ -69,9 +69,9 @@
     
 ## Screenshots
 
-<img src="https://media.discordapp.net/attachments/1072325721130799206/1072630431012368426/My_project-1.png" width="333"></img>
-<img src="https://media.discordapp.net/attachments/1071893829218746409/1072633366354071703/My_project-1_1.png" width="333"></img>
-<img src="https://media.discordapp.net/attachments/1071893829218746409/1072634930472947723/Screenshot_2023-02-07_4.47.43_PM.png" width="333"></img>
+<img src="https://media.discordapp.net/attachments/1072325721130799206/1072630431012368426/My_project-1.png" width="444"></img>
+<img src="https://media.discordapp.net/attachments/1071893829218746409/1072633366354071703/My_project-1_1.png" width="444"></img>
+<img src="https://media.discordapp.net/attachments/1071893829218746409/1072634930472947723/Screenshot_2023-02-07_4.47.43_PM.png" width="444"></img>
 
 
 ## Important
