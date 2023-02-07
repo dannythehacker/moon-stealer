@@ -87,7 +87,3 @@ Moon Stealer is licensed under the <a href="https://mit-license.org/">MIT Licens
 - Join the [Discord](https://discord.gg/fnNd26Depz)
 
 Credits: WASP Stealer
-
-idk what other credits to give since its 70% wasp stealer
-
-
