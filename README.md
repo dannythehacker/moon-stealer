@@ -69,7 +69,7 @@
     
 ## Screenshots
 
-<img src="https://media.discordapp.net/attachments/1072325721130799206/1072630431012368426/My_project-1.png" width="989"></img>
+<img src="https://media.discordapp.net/attachments/1072325721130799206/1072630431012368426/My_project-1.png" width="666"></img>
 
 
 ## Important
