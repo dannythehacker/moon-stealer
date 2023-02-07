@@ -66,7 +66,11 @@
 
 - Extras
     - Gets information of the victim's system
- 
+    
+## Screenshots
+
+<img src="https://media.discordapp.net/attachments/1072325721130799206/1072630431012368426/My_project-1.png" width="989"></img>
+
 
 ## Important
  
@@ -83,3 +87,5 @@ Moon Stealer is licensed under the <a href="https://mit-license.org/">MIT Licens
 Credits: WASP Stealer
 
 idk what other credits to give since its 70% wasp stealer
+
+
