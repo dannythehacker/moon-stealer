@@ -23,6 +23,14 @@
 [issues-shield]: https://img.shields.io/github/issues/Yuvi5001/moon-stealer.svg?style=for-the-badge
 [issues-url]: https://github.com/Yuvi5001/moon-stealer/issues
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] 
+ 
+ 
 ### Based on WASP Stealer.
 
 ### Requirements
