@@ -113,7 +113,7 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 <img src="https://media.discordapp.net/attachments/1071893829218746409/1072633366354071703/My_project-1_1.png" width="444"></img>
 <img src="https://media.discordapp.net/attachments/1071893829218746409/1072634930472947723/Screenshot_2023-02-07_4.47.43_PM.png" width="444"></img>
 
-<h3>Disclaimer</h3>
+<h2>Disclaimer</h2>
 
     This software was made for research and educational purposes only. The creator of Moon Stealer is not responsible for the usage of this software.
 
