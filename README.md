@@ -24,13 +24,13 @@
 [issues-url]: https://github.com/Yuvi5001/moon-stealer/issues
 [license-shield]: https://img.shields.io/github/license/yuvi5001/moon-stealer.svg?style=for-the-badge
 [license-url]: https://github.com/Yuvi5001/moon-stealer/blob/main/LICENSE.md
- 
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
- 
+
 ### Based on WASP Stealer.
 
 ### Requirements
@@ -79,8 +79,6 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 - [x] - **Fequently Updating**
 - [x] - **Might Have Some Bugs**
 - [x] - **Python Provided**
-
-> **Don't** Install Moon-Stealer From Any other Place Than This Page, Expect it be **Hacked/Scammed.**
 
 ---
 
