@@ -21,7 +21,7 @@
 [stars-shield]: https://img.shields.io/github/stars/chingu-voyages/moonshot-chingu-quiz.svg?style=for-the-badge
 [stars-url]: https://github.com/chingu-voyages/moonshot-chingu-quiz/stargazers
 [issues-shield]: https://img.shields.io/github/issues/chingu-voyages/moonshot-chingu-quiz.svg?style=for-the-badge
-[issues-url]: https://github.com/chingu-voyages/moonshot-chingu-quiz/issues
+[issues-url]: https://github.com/Yuvi5001/moon-stealer/issues
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
