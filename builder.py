@@ -4,7 +4,7 @@ search_text = "whook"
 replace_text = webhook
 
 try:
-    with open(r'src/hazard.py', 'r') as file:
+    with open(r'main.py', 'r') as file:
   
         data = file.read()
   
