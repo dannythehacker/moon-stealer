@@ -22,11 +22,13 @@
 [stars-url]: https://github.com/Yuvi5001/moon-stealer/stargazers
 [issues-shield]: https://img.shields.io/github/issues/yuvi5001/moon-stealer.svg?style=for-the-badge
 [issues-url]: https://github.com/Yuvi5001/moon-stealer/issues
+[MIT License]: https://img.shields.io/github/license/yuvi5001/moon-stealer.svg
  
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url] 
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
  
 ### Based on WASP Stealer.
 
