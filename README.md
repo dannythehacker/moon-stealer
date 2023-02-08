@@ -98,12 +98,7 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 
   - Steal Steam Launcher accounts
   - Steal Nation Glory Launcher accounts
-
-- File Stealer
-
-  - Search User PC for Passwords, 2fa codes, tokens, wallets...
-  - Browsers: Opera, Chrome, Brave, Yandex, Edge
-
+ 
 - Extras
   - Gets information of the victim's system
 
