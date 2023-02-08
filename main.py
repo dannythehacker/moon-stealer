@@ -13,7 +13,7 @@ import random, subprocess, platform, socket
 import time, os
 import getpass
 
-whook = "run builder.py first :skull:"
+whook = "run builder.py first"
 
 try:
     from PIL import ImageGrab
