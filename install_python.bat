@@ -1,6 +1,6 @@
 @echo off
 set /p answer="Do you have Python installed (y/n)? "
-if /i "%answer%" == "y" (
+if /i "%answer%" == "n" (
     for /f "tokens=1,2 delims= " %%a in ('powershell -Command "Invoke-WebRequest https://www.python.org/ftp/python/ -UseBasicParsing | Select-String -Pattern '3.10.[0-9]{1,2}' -AllMatches | Select-Object -ExpandProperty Matches | Select-Object -ExpandProperty Value | Sort-Object -Descending -Unique | Select-Object -First 1"') do (
         set "PYTHON_VERSION=%%a%%b"
     )
