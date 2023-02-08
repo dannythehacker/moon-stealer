@@ -22,7 +22,8 @@
 [stars-url]: https://github.com/Yuvi5001/moon-stealer/stargazers
 [issues-shield]: https://img.shields.io/github/issues/yuvi5001/moon-stealer.svg?style=for-the-badge
 [issues-url]: https://github.com/Yuvi5001/moon-stealer/issues
-[MIT License]: https://img.shields.io/github/license/yuvi5001/moon-stealer.svg
+[license-shield]: https://img.shields.io/github/license/yuvi5001/moon-stealer.svg
+[license-url]: https://github.com/Yuvi5001/moon-stealer/blob/main/LICENSE.md
  
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
