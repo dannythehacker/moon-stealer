@@ -98,7 +98,7 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 
   - Steal Steam Launcher accounts
   - Steal Nation Glory Launcher accounts
- 
+
 - Extras
   - Gets information of the victim's system
 
