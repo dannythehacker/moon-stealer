@@ -43,7 +43,8 @@
 
 Enjoy!
 
-NOTE: When Opening Moon-Stealer Just Tap "Main.py" to Open Everytime!
+NOTE: When Opening Moon-Stealer Just Tap "main.py" to Open Everytime!
+
 NOTE: Make sure you have Python 3.10+ and Added to Path.
 
 ```
