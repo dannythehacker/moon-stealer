@@ -13,6 +13,15 @@
 <a href="https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe">Python v3.10</a>ㅤㅤ 
 </p>
 <p align="center">
+ 
+[contributors-shield]: https://img.shields.io/github/contributors/Yuvi5001/moon-stealer.svg?style=for-the-badge
+[contributors-url]: https://github.com/chingu-voyages/moonshot-chingu-quiz/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/chingu-voyages/moonshot-chingu-quiz.svg?style=for-the-badge
+[forks-url]: https://github.com/chingu-voyages/moonshot-chingu-quiz/network/members
+[stars-shield]: https://img.shields.io/github/stars/chingu-voyages/moonshot-chingu-quiz.svg?style=for-the-badge
+[stars-url]: https://github.com/chingu-voyages/moonshot-chingu-quiz/stargazers
+[issues-shield]: https://img.shields.io/github/issues/chingu-voyages/moonshot-chingu-quiz.svg?style=for-the-badge
+[issues-url]: https://github.com/chingu-voyages/moonshot-chingu-quiz/issues
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
