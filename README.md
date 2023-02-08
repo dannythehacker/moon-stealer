@@ -54,15 +54,15 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 
 ### Settings:
 
-- [x]  -  **Windows 10 / 11**
-- [x]  -  **Download Python:** [v3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
+- [x] - **Windows 10 / 11**
+- [x] - **Download Python:** [v3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
 
-- [x]  -  **100% Safe!**
-- [x]  -  **Fequently Updating**
-- [x]  -  **Might Have Some Bugs**
-- [x]  -  **Python Provided**
+- [x] - **100% Safe!**
+- [x] - **Fequently Updating**
+- [x] - **Might Have Some Bugs**
+- [x] - **Python Provided**
 
-> **DONT** Install Moon-Stealer From Anyother Place Than This Page, Expect it be **Hacked/Scammed.**
+> **Don't** Install Moon-Stealer From Any other Place Than This Page, Expect it be **Hacked/Scammed.**
 
 ---
 
@@ -114,7 +114,7 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 
 <h3>Disclaimer</h3>
 
-    THIS SOFTWARE WAS MADE FOR RESEARCH AND EDUCATIONAL PURPOSES ONLY. THE CREATOR OF MOON STEALER IS NOT REPONSIBLE OF THE USAGE OF THIS SOFTWARE. IF THIS PROJECT GETS TO MANY COMPLAINS, THIS REPOSITORY WILL BE DELETED.
+    This software was made for research and educational purposes only. The creator of Moon Stealer is not responsible for the usage of this software.
 
 ## License
 
@@ -123,6 +123,6 @@ Moon Stealer is licensed under the <a href="https://mit-license.org/">MIT Licens
 ## Errors?
 
 - Make an [issue](https://github.com/Yuvi5001/moon-stealer/issues)
-- Join the [Discord](https://discord.gg/fnNd26Depz)
+- Join the [discord](https://discord.gg/fnNd26Depz)
 
 Credits: WASP Stealer
