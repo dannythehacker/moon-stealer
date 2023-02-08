@@ -29,7 +29,7 @@
 
 2. Extract zip file
 
-3. Tap "Install_python.bat" in moon folder if you do not have python
+3. Tap "install_python.bat" in moon folder if you do not have python
 
 4. Open `main.py` with any text editor such as notepad
 
@@ -38,7 +38,7 @@
 6. Obfuscate your code: [https://pyobfuscate.com/](https://pyobfuscate.Com/pyd) (recommended)
 
 7. Run `convert-to-exe.py` to convert it to a .exe file type. (buggy)
- 
+
 8. Check ur dist folder for your executable
 
 Enjoy!
