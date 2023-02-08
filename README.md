@@ -16,7 +16,7 @@
 
 [contributors-shield]: https://img.shields.io/github/contributors/yuvi5001/moon-stealer.svg?style=for-the-badge
 [contributors-url]: https://github.com/yuvi5001/moon-stealer/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/yuvi5001/moon-stealer
+[forks-shield]: https://img.shields.io/github/forks/yuvi5001/moon-stealer.svg?style=for-the-badge
 [forks-url]: https://github.com/yuvi5001/moon-stealer/network/members
 [stars-shield]: https://img.shields.io/github/stars/yuvi5001/moon-stealer.svg?style=for-the-badge
 [stars-url]: https://github.com/Yuvi5001/moon-stealer/stargazers
