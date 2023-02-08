@@ -15,20 +15,13 @@
 <p align="center">
  
 [contributors-shield]: https://img.shields.io/github/contributors/Yuvi5001/moon-stealer.svg?style=for-the-badge
-[contributors-url]: https://github.com/chingu-voyages/moonshot-chingu-quiz/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/chingu-voyages/moonshot-chingu-quiz.svg?style=for-the-badge
-[forks-url]: https://github.com/chingu-voyages/moonshot-chingu-quiz/network/members
-[stars-shield]: https://img.shields.io/github/stars/chingu-voyages/moonshot-chingu-quiz.svg?style=for-the-badge
-[stars-url]: https://github.com/chingu-voyages/moonshot-chingu-quiz/stargazers
-[issues-shield]: https://img.shields.io/github/issues/chingu-voyages/moonshot-chingu-quiz.svg?style=for-the-badge
+[contributors-url]: https://github.com/Yuvi5001//moon-stealer/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Yuvi5001//moon-stealer.svg?style=for-the-badge
+[forks-url]: https://github.com/Yuvi5001//moon-stealer/network/members
+[stars-shield]: https://img.shields.io/github/stars/Yuvi5001//moon-stealer.svg?style=for-the-badge
+[stars-url]: https://github.com/Yuvi5001//moon-stealer/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Yuvi5001/moon-stealer.svg?style=for-the-badge
 [issues-url]: https://github.com/Yuvi5001/moon-stealer/issues
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 ### Based on WASP Stealer.
 
