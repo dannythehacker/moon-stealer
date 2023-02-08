@@ -13,23 +13,20 @@
 <a href="https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe">Python v3.10</a>ㅤㅤ 
 </p>
 <p align="center">
- 
-[contributors-shield]: https://img.shields.io/github/contributors/Yuvi5001/moon-stealer.svg?style=for-the-badge
-[contributors-url]: https://github.com/Yuvi5001//moon-stealer/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Yuvi5001//moon-stealer.svg?style=for-the-badge
-[forks-url]: https://github.com/Yuvi5001//moon-stealer/network/members
-[stars-shield]: https://img.shields.io/github/stars/Yuvi5001//moon-stealer.svg?style=for-the-badge
-[stars-url]: https://github.com/Yuvi5001//moon-stealer/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Yuvi5001/moon-stealer.svg?style=for-the-badge
-[issues-url]: https://github.com/Yuvi5001/moon-stealer/issues
 
+[contributors-shield]: https://img.shields.io/github/contributors/yuvi5001/moon-stealer.svg?style=for-the-badge
+[contributors-url]: https://github.com/yuvi5001/moon-stealer/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/yuvi5001/moon-stealer
+[forks-url]: https://github.com/yuvi5001/moon-stealer/network/members
+[stars-shield]: https://img.shields.io/github/stars/yuvi5001/moon-stealer.svg?style=for-the-badge
+[stars-url]: https://github.com/Yuvi5001/moon-stealer/stargazers
+[issues-shield]: https://img.shields.io/github/issues/yuvi5001/moon-stealer.svg?style=for-the-badge
+[issues-url]: https://github.com/Yuvi5001/moon-stealer/issues
+ 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url] 
- 
+[![Issues][issues-shield]][issues-url] 
  
 ### Based on WASP Stealer.
 
