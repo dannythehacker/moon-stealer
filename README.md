@@ -119,7 +119,7 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 
 <h2>Disclaimer</h2>
 
-    This software was made for research and educational purposes only. The creator of Moon Stealer is not responsible for the usage of this software.
+    This software was made for research and educational purposes only. The creator of Moon Grabber is not responsible for the usage of this software.
 
 ## License
 
