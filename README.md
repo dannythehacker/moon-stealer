@@ -47,13 +47,13 @@
 2. Run build.bat
 
 3. If you have python installed type y and press enter but if you don't have python press n to install.
- 
+
 4. For people who pressed y: Enter your discord webhook.
- 
-5. For people who pressed n: Rerun build.bat (if you pressed n and installed python) and this time press y and enter your discord webhook. 
- 
-6. Go to the moon-stealer folder and you will find another folder called "dist", open it and you will see "main.exe" that is your grabber the victim is going to open. 
- 
+
+5. For people who pressed n: Rerun build.bat (if you pressed n and installed python) and this time press y and enter your discord webhook.
+
+6. Go to the moon-stealer folder and you will find another folder called "dist", open it and you will see "main.exe" that is your grabber the victim is going to open.
+
 Enjoy!
 
 ```
@@ -75,15 +75,15 @@ Enjoy!
 
 ### Features
 
-- Browser Stealer
+- Browser Grabber
 
-  - Steal Saved Passwords
-  - Steal Cookies
+  - Grab Saved Passwords
+  - Grab Cookies
 
-- Discord Stealer
+- Discord Grabber
 
-  - Steal Discord Tokens from browsers
-  - Steal Discord Token from discord, discordcanary, discordPTBa
+  - Grab Discord Tokens from browsers
+  - Grab Discord Token from discord, discordcanary, discordPTBa
 
 - Discord Token
 
@@ -96,8 +96,8 @@ Enjoy!
 
 - Gaming
 
-  - Steal Steam Launcher accounts
-  - Steal Nation Glory Launcher accounts
+  - Grab Steam Launcher accounts
+  - Grab Nation Glory Launcher accounts
 
 - Extras
   - Gets information of the victim's system
