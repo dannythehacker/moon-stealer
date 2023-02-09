@@ -1,4 +1,5 @@
 import codecs
+import os
 
 webhook = input("What is your webhook? ")
 
