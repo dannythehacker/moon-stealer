@@ -15,9 +15,6 @@
 <p align="center">
 
 <p align= "center">
-   <kbd>
-   <img  src="https://repository-images.githubusercontent.com/452259635/240443f9-170c-4834-8640-35775d463d29">
-   </kbd><br><br>
    <img src="https://img.shields.io/github/languages/top/Yuvi5001/moon-grabber">
    <img src="https://img.shields.io/github/stars/Yuvi5001/moon-grabber">
    <img src="https://img.shields.io/github/forks/Yuvi5001/moon-grabberr">
