@@ -37,7 +37,7 @@
 ### Setup
 
 ```sh-session
-1. Download moon grabber (https://codeload.github.com/Yuvi5001/moon-grabber/zip/refs/heads/main)
+1. Download moon grabber
 
 2. Run build.bat
 
