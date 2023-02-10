@@ -17,7 +17,7 @@
 <p align= "center">
    <img src="https://img.shields.io/github/languages/top/Yuvi5001/moon-grabber">
    <img src="https://img.shields.io/github/stars/Yuvi5001/moon-grabber">
-   <img src="https://img.shields.io/github/forks/Yuvi5001/moon-grabberr">
+   <img src="https://img.shields.io/github/forks/Yuvi5001/moon-grabber">
    <br>
    <img src="https://img.shields.io/github/last-commit/Yuvi5001/moon-grabber">
    <img src="https://img.shields.io/github/license/Yuvi5001/moon-grabber">
