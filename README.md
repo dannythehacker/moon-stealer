@@ -111,9 +111,4 @@ Enjoy!
 
 Moon Grabber is licensed under the <a href="https://mit-license.org/">MIT License</a>.
 
-## Errors?
-
-- Make an [issue](https://github.com/Yuvi5001/moon-grabber/issues)
-- Join the [discord](https://discord.gg/fnNd26Depz)
-
 Credits: WASP Stealer
