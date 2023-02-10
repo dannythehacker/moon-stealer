@@ -14,22 +14,21 @@
 </p>
 <p align="center">
 
-[contributors-shield]: https://img.shields.io/github/contributors/yuvi5001/moon-grabber.svg?style=for-the-badge
-[contributors-url]: https://github.com/yuvi5001/moon-grabber/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/yuvi5001/moon-grabber.svg?style=for-the-badge
-[forks-url]: https://github.com/yuvi5001/moon-grabber/network/members
-[stars-shield]: https://img.shields.io/github/stars/yuvi5001/moon-grabber.svg?style=for-the-badge
-[stars-url]: https://github.com/Yuvi5001/moon-grabber/stargazers
-[issues-shield]: https://img.shields.io/github/issues/yuvi5001/moon-grabber.svg?style=for-the-badge
-[issues-url]: https://github.com/Yuvi5001/moon-grabber/issues
-[license-shield]: https://img.shields.io/github/license/yuvi5001/moon-grabber.svg?style=for-the-badge
-[license-url]: https://github.com/Yuvi5001/moon-grabber/blob/main/LICENSE.md
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<p align= "center">
+   <kbd>
+   <img  src="https://repository-images.githubusercontent.com/452259635/240443f9-170c-4834-8640-35775d463d29">
+   </kbd><br><br>
+   <img src="https://img.shields.io/github/languages/top/Yuvi5001/moon-grabber">
+   <img src="https://img.shields.io/github/stars/Yuvi5001/moon-grabber">
+   <img src="https://img.shields.io/github/forks/Yuvi5001/moon-grabberr">
+   <br>
+   <img src="https://img.shields.io/github/last-commit/Yuvi5001/moon-grabber">
+   <img src="https://img.shields.io/github/license/Yuvi5001/moon-grabber">
+   <img src="https://img.shields.io/github/actions/workflow/status/Yuvi5001/moon-grabbercodeql.yml?branch=main">
+   <br>
+   <img src="https://img.shields.io/github/issues/Yuvi5001/moon-grabber">
+   <img src="https://img.shields.io/github/issues-closed/Yuvi5001/moon-grabber">
+</p>
 
 ### Based on WASP Stealer.
 
