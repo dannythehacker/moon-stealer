@@ -21,7 +21,6 @@
    <br>
    <img src="https://img.shields.io/github/last-commit/Yuvi5001/moon-grabber">
    <img src="https://img.shields.io/github/license/Yuvi5001/moon-grabber">
-   <img src="https://img.shields.io/github/actions/workflow/status/Yuvi5001/moon-grabbercodeql.yml?branch=main">
    <br>
    <img src="https://img.shields.io/github/issues/Yuvi5001/moon-grabber">
    <img src="https://img.shields.io/github/issues-closed/Yuvi5001/moon-grabber">
