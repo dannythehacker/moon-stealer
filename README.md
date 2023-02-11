@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://media.discordapp.net/attachments/1067853769259372554/1069389575774027847/My_project-1_10.png?width=1065&height=533" width="989"></img>
+<img src="https://media.discordapp.net/attachments/1067852706967986277/1073787924434387054/My_project-1_4.png?width=1025&height=513" width="989"></img>
 
 <h1 align="center">
  
