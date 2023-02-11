@@ -15,15 +15,15 @@
 <p align="center">
 
 <p align= "center">
-   <img src="https://img.shields.io/github/languages/top/Yuvi5001/moon-grabber?color=purple&logoColor=purple">
-   <img src="https://img.shields.io/github/stars/Yuvi5001/moon-grabber?color=purple&logoColor=purple">
-   <img src="https://img.shields.io/github/forks/Yuvi5001/moon-grabber?color=purple&logoColor=purple">
+   <img src="https://img.shields.io/github/languages/top/Yuvi5001/moon-grabber?color=red&logoColor=red">
+   <img src="https://img.shields.io/github/stars/Yuvi5001/moon-grabber?color=red&logoColor=red">
+   <img src="https://img.shields.io/github/forks/Yuvi5001/moon-grabber?color=red&logoColor=red">
    <br>
-   <img src="https://img.shields.io/github/last-commit/Yuvi5001/moon-grabber?color=purple&logoColor=purple">
-   <img src="https://img.shields.io/github/license/Yuvi5001/moon-grabber?color=purple&logoColor=purple">
+   <img src="https://img.shields.io/github/last-commit/Yuvi5001/moon-grabber?color=red&logoColor=red">
+   <img src="https://img.shields.io/github/license/Yuvi5001/moon-grabber?color=red&logoColor=red">
    <br>
-   <img src="https://img.shields.io/github/issues/Yuvi5001/moon-grabber?color=purple&logoColor=purple">
-   <img src="https://img.shields.io/github/issues-closed/Yuvi5001/moon-grabber?color=purple&logoColor=purple">
+   <img src="https://img.shields.io/github/issues/Yuvi5001/moon-grabber?color=red&logoColor=red">
+   <img src="https://img.shields.io/github/issues-closed/Yuvi5001/moon-grabber?color=red&logoColor=red">
 </p>
 
 ## Requirements
