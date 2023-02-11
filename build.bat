@@ -12,3 +12,5 @@ if /i "%do_you_have_python%" == "n" (
   pause
   goto start
 )
+
+pause
