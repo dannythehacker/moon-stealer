@@ -26,8 +26,6 @@
    <img src="https://img.shields.io/github/issues-closed/Yuvi5001/moon-grabber">
 </p>
 
-### Based on WASP Stealer.
-
 ### Requirements
 
 - **Few braincells**
@@ -49,7 +47,6 @@
 6. Go to the moon-grabber folder and you will find another folder called "dist", open it and you will see "main.exe" that is your grabber the victim is going to open.
 
 Enjoy!
-
 
 <a id="features"></a>
 
@@ -96,5 +93,3 @@ Enjoy!
 <h2>Disclaimer</h2>
 
     This software was made for research and educational purposes only. The creator of Moon Grabber is not responsible for the usage of this software.
-
-Credits: WASP Stealer
