@@ -47,17 +47,6 @@ Enjoy!
 
 ---
 
-### Settings:
-
-- [x] - **Windows 10 / 11**
-- [x] - **Download Python:** [v3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
-
-- [x] - **100% Safe!**
-- [x] - **Fequently Updating**
-- [x] - **Might Have Some Bugs**
-
----
-
 ### Features
 
 - Browser Grabber
