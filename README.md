@@ -32,6 +32,8 @@
 - **Windows 10 / 11**
 - **Python:** [v3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
 
+---
+
 ### Setup
 
 1. Download moon grabber
@@ -67,6 +69,8 @@ Enjoy!
   - Email
   - Phone
   - HQ Friends
+
+---
 
 ## Screenshots
 
