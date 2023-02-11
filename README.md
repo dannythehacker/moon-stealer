@@ -36,7 +36,6 @@
 
 ### Setup
 
-```sh-session
 1. Download moon grabber
 
 2. Run build.bat
@@ -51,7 +50,6 @@
 
 Enjoy!
 
-```
 
 <a id="features"></a>
 
@@ -89,14 +87,6 @@ Enjoy!
   - Phone
   - HQ Friends
 
-- Gaming
-
-  - Grab Steam Launcher accounts
-  - Grab Nation Glory Launcher accounts
-
-- Extras
-  - Gets information of the victim's system
-
 ## Screenshots
 
 <img src="https://media.discordapp.net/attachments/1072325721130799206/1072630431012368426/My_project-1.png" width="444"></img>
@@ -106,9 +96,5 @@ Enjoy!
 <h2>Disclaimer</h2>
 
     This software was made for research and educational purposes only. The creator of Moon Grabber is not responsible for the usage of this software.
-
-## License
-
-Moon Grabber is licensed under the <a href="https://mit-license.org/">MIT License</a>.
 
 Credits: WASP Stealer
