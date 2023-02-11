@@ -6,11 +6,11 @@ webhook = input("What is your webhook? ")
 search_text = "run builder py first"
 replace_text = webhook
 
-with codecs.open("main.py", "r", encoding="utf-8") as file:
+with codecs.open("source/main.py", "r", encoding="utf-8") as file:
     data = file.read()
     data = data.replace(search_text, replace_text)
 
-with codecs.open("main.py", "w", encoding="utf-8") as file:
+with codecs.open("source/main.py", "w", encoding="utf-8") as file:
     file.write(data)
 
 print(
@@ -19,10 +19,12 @@ print(
 choice = input("Choice [exec/keep]: ")
 if choice == "exec":
     os.system("pip install pyinstaller")
-    os.system("pyinstaller --onefile main.py")
+    os.system("pyinstaller --onefile source/main.py")
 elif choice == "keep":
     print("Keeping the main.py file with your webhook attached to it.")
     input("Enter to exit.")
 else:
-    print('u did not type keep or exec. now it is going to be defaulted to "keep"')
+    print(
+        'u did not type keep or exec. now it is going to be defaulted to "keep"'
+    )
     quit()
