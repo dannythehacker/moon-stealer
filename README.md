@@ -82,4 +82,4 @@ Enjoy!
 
 The purpose of the creation of Moon Grabber was limited to research and educational use only. The creator of Moon Grabber holds no responsibility for how this software is utilized.
 
-<img src="https://media.discordapp.net/attachments/1073349146100125756/1073792503817441401/My_project-1_6.png?width=1025&amp;height=360" alt="Image"/>![image](https://user-images.githubusercontent.com/121696232/218234370-ab9b51dd-9381-4856-8c4f-8b35e0231db8.png)
+<img src="https://media.discordapp.net/attachments/1073349146100125756/1073792503817441401/My_project-1_6.png?width=1025&height=360" width="444">
