@@ -81,3 +81,5 @@ Enjoy!
 ---
 
 The purpose of the creation of Moon Grabber was limited to research and educational use only. The creator of Moon Grabber holds no responsibility for how this software is utilized.
+
+![image](https://user-images.githubusercontent.com/121696232/218234246-05ef65bc-410c-490c-9489-1f4f27ed935c.png)
