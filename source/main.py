@@ -13,6 +13,16 @@ import random, subprocess, platform, socket
 import time, os
 import getpass
 
+import platform
+
+if platform.system() == "Windows":
+    # If running on Windows, do nothing and continue with the program
+    pass
+else:
+    # If not running on Windows, exit the program
+    quit()
+
+
 whook = "run builder py first"
 
 try:
