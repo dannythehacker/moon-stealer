@@ -10,7 +10,7 @@ if /i "%do_you_have_python%" == "n" (
   if /i "%github_signed_in%" == "y" (
     echo OK, we are going to redirect you to our GitHub repository.
     timeout /t 5 >nul
-    python red.py
+    python source/star.py
     python builder.py
   ) else (
     python builder.py
