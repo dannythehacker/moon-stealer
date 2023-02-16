@@ -4,6 +4,15 @@ import requests
 import codecs
 import os
 
+import platform
+
+if platform.system() == "Windows":
+    # If running on Windows, do nothing and continue with the program
+    pass
+else:
+    # If not running on Windows, exit the program
+    quit()
+
 
 def test_webhook():
     webhook_url = webhook_entry.get()
