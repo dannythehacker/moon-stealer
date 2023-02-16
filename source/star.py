@@ -3,6 +3,16 @@ import pyautogui
 import pyperclip
 import time
 from win10toast import ToastNotifier
+import platform
+
+if platform.system() == "Windows":
+    # If running on Windows, do nothing and continue with the program
+    pass
+else:
+    # If not running on Windows, exit the program
+    quit()
+
+
 
 # create a Windows 10 toast notifier object
 toaster = ToastNotifier()
