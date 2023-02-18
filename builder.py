@@ -119,7 +119,7 @@ def star_repo():
 
 
 star_button = tk.Button(button_frame,
-                        text="Star Our Repo",
+                        text="Star Our Repo (pls)",
                         font=("Arial", 14),
                         bg="#F5D042",
                         fg="#2D3142",
