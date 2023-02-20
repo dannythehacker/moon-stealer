@@ -36,9 +36,10 @@
 ## Setup
 
 1. Download moon grabber
-2. Run builder.py
+2. Run install.bat
 3. enter your webhook
-4. it will build the logger for you. when done, check the moon grabber folder for a folder called dist.
+4. Click build (give it time)
+5. it will build the logger for you. when done, check the moon grabber folder for a folder called dist.
 6. open and find your stub file main.exe
 
 Enjoy!
