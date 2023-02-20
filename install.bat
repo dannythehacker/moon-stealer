@@ -10,7 +10,7 @@ if %errorlevel% == 0 (
     exit
 )
 
-py -3.10 -m pip install --upgrade -r requirements.txt
+py -3.10 -m pip install --upgrade -r r.txt
 
 cls
 
