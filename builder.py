@@ -113,23 +113,8 @@ test_button = tk.Button(button_frame,
                         activeforeground="#2D3142",
                         command=test_webhook)
 
-
-def star_repo():
-    os.system("python source/star.py")
-
-
-star_button = tk.Button(button_frame,
-                        text="Star Our Repo (pls)",
-                        font=("Arial", 14),
-                        bg="#F5D042",
-                        fg="#2D3142",
-                        activebackground="#F5D042",
-                        activeforeground="#2D3142",
-                        command=star_repo)
-
 build_button.pack(side="left", padx=10, pady=(30, 10))
 test_button.pack(side="left", padx=10, pady=(30, 10))
-star_button.pack(side="left", padx=10, pady=(30, 10))
 button_frame.pack()
 
 root.mainloop()
