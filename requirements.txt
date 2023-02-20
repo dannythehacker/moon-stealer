@@ -1,3 +1,4 @@
 requests
 pyautogui
 pyinstaller
+win10toast
