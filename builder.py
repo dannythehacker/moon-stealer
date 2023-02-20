@@ -48,7 +48,6 @@ def build():
 
             messagebox.showinfo("Please wait", "Building stub...")
 
-            os.system("pip install pyinstaller")
             os.system("pyinstaller --onefile source/main.py")
 
             messagebox.showinfo(
